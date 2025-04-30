@@ -98,7 +98,8 @@ def main():
         if config["task"] == "Cifar":
             download_cifar()
         elif config["task"] == "LSTM":
-            download_wikitext2()
+            # download_wikitext2()
+            download_ptb()
     torch.distributed.barrier()
     torch.cuda.synchronize()
 
@@ -495,6 +496,12 @@ def download_wikitext2(data_root=os.path.join(os.getenv("DATA"), "data")):
         torchtext.data.Field(lower=True), root=os.path.join(data_root, "wikitext2")
     )
 
+def download_ptb(data_root=os.path.join(os.getenv("DATA"), "data")):
+    import torchtext
+
+    torchtext.datasets.PennTreebank.splits(
+        torchtext.data.Field(lower=True), root=os.path.join(data_root, "ptb")
+    )
 
 def check_model_consistency_across_workers(model, epoch):
     signature = []

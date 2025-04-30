@@ -37,14 +37,14 @@ config = dict(
     # distributed_backend="nccl",
     distributed_backend="gloo",
     fix_conv_weight_norm=False,
-    num_epochs=3,#CHANGE LATER
+    num_epochs=10,#CHANGE LATER
     checkpoints=[],
     num_train_tracking_batches=1,
-    optimizer_batch_size=128,  # per worker
+    optimizer_batch_size=64,#128,  # per worker
     optimizer_conv_learning_rate=0.1,  # tuned for batch size 128
-    optimizer_decay_at_epochs=[150, 250],
+    optimizer_decay_at_epochs=[30,40],#[150, 250],
     optimizer_decay_with_factor=10.0,
-    optimizer_learning_rate=0.1,  # Tuned for batch size 128 (single worker)
+    optimizer_learning_rate=1,  # Tuned for batch size 128 (single worker)
     optimizer_memory=True,
     optimizer_momentum_type="nesterov",
     optimizer_momentum=0.9,
@@ -60,9 +60,9 @@ config = dict(
     optimizer_weight_decay_conv=0.0001,
     optimizer_weight_decay_other=0.0001,
     optimizer_weight_decay_bn=0.0,
-    task="Cifar",
+    task="LanguageModeling",
     # task_architecture="ResNet18",
-    task_architecture = "MobileNet",
+    task_architecture = "RNNModule",
     seed=42,
     rank=0,
     n_workers=2,
@@ -160,7 +160,8 @@ def train_process(rank, world_size, config):
             # download_cifar()
             download_ministl()
         elif config["task"] == "LSTM":
-            download_wikitext2()
+            download_ptb()
+            # download_wikitext2()
     dist.barrier()
     torch.cuda.synchronize()
 
@@ -518,6 +519,29 @@ def download_cifar(data_root=os.path.join(os.getenv("DATA"), "data")):
     training_set = dataset(root=data_root, train=True, download=True)
     test_set = dataset(root=data_root, train=False, download=True)
 
+# def download_ptb(data_root=os.path.join(os.getenv("DATA"), "data")):
+#     import torchtext
+#     torchtext.datasets.PennTreebank.splits(
+#         torchtext.data.Field(lower=True), root=os.path.join(data_root, "ptb"))
+    
+#     train_set, valid_set, test_set = torchtext.datasets.PennTreebank.splits(
+#         torchtext.data.Field(lower=True), root=os.path.join(data_root, "ptb")
+#     )
+#     return train_set, test_set
+
+def download_ptb(data_root=os.path.join(os.getenv("DATA"), "data")):
+    # Define the tokenizer Field
+    TEXT = Field(lower=True)
+
+    # Download and load dataset splits
+    train_set, valid_set, test_set = PennTreebank.splits(
+        TEXT, root=os.path.join(data_root, "ptb")
+    )
+
+    # Build vocabulary
+    TEXT.build_vocab(train_set)
+
+    return train_set, valid_set, test_set
 
 from torchvision import datasets, transforms
 def download_ministl(data_root=os.path.join(os.getenv("DATA", "./"), "data")):
@@ -531,12 +555,13 @@ def download_ministl(data_root=os.path.join(os.getenv("DATA", "./"), "data")):
     
     return train_set, test_set
 
-
 # def download_wikitext2(data_root=os.path.join(os.getenv("DATA"), "data")):
 #     import torchtext
 #     torchtext.datasets.WikiText2.splits(
 #         torchtext.data.Field(lower=True), root=os.path.join(data_root, "wikitext2")
 #     )
+
+
 
 def check_model_consistency_across_workers(model, epoch):
     signature = []

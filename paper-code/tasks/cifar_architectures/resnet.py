@@ -24,7 +24,7 @@ class BasicBlock(nn.Module):
         self.bn2 = nn.BatchNorm2d(planes)
 
         if not use_batchnorm:
-            self.bn1 = self.bn2 = nn.Sequential()
+            self.bn1LanguageModeling self.bn2 = nn.Sequential()
 
         self.shortcut = nn.Sequential()
         if stride != 1 or in_planes != self.expansion*planes:

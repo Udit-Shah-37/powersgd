@@ -34,13 +34,19 @@ class LanguageModelingTask:
         self._epoch = 0
 
         torch.random.manual_seed(self._seed)
+        # self.text, self.train_loader, self.val_loader = define_dataset(
+        #     device,
+        #     "wikitext2",
+        #     os.path.join(os.getenv("DATA"), "data", "wikitext2"),
+        #     batch_size=self._batch_size,
+        # )
         self.text, self.train_loader, self.val_loader = define_dataset(
             device,
-            "wikitext2",
-            os.path.join(os.getenv("DATA"), "data", "wikitext2"),
+            "ptb",
+            os.path.join(os.getenv("DATA"), "data", "ptb"),
             batch_size=self._batch_size,
         )
-
+        
         global ITOS
         global STOI
         ITOS = self.text.vocab.itos
@@ -302,14 +308,14 @@ def define_model(TEXT, rnn_n_hidden=650, rnn_n_layers=3, rnn_tie_weights=True, d
 
 
 def _get_text():
-    spacy_en = spacy.load("en")
+    spacy_en = spacy.load("en_core_web_sm")
     spacy_en.tokenizer.add_special_case("<eos>", [{ORTH: "<eos>"}])
     spacy_en.tokenizer.add_special_case("<bos>", [{ORTH: "<bos>"}])
     spacy_en.tokenizer.add_special_case("<unk>", [{ORTH: "<unk>"}])
 
     def spacy_tok(text):
         return [tok.text for tok in spacy_en.tokenizer(text)]
-
+    
     TEXT = torchtext.data.Field(lower=True, tokenize=spacy_tok)
     return TEXT
 
