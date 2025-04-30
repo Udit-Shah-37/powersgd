@@ -2,3 +2,4 @@
 *.fyc
 __pycache__/
 *.pyc
+out.log
