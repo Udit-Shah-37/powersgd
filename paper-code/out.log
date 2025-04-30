@@ -1,0 +1,2011 @@
+Using free port: 46293
+(Rank 0) Distributed init: rank 0/2 - /tmp/torch_dist_init
+[Rank 0] About to initialize process group on port 46293
+(Rank 1) Distributed init: rank 1/2 - /tmp/torch_dist_init
+[Rank 1] About to initialize process group on port 46293
+[Rank 0] Successfully initialized process group.
+[Rank 1] Successfully initialized process group.
+(Rank 1) timer                          - epoch:  1.000, value:  0.383 (event:batch.forward)
+(Rank 1) timer                          - epoch:  1.000, value:  0.692 (event:batch.backward)
+(Rank 1) timer                          - epoch:  1.000, value:  0.037 (event:batch.evaluate)
+(Rank 1) timer                          - epoch:  0.008, value:  0.000 (event:batch.reporting.lr)
+(Rank 1) timer                          - epoch:  0.008, value:  0.016 (event:batch.accumulate)
+(Rank 1) timer                          - epoch: -1.000, value:  0.005 (event:reduce.zero_mem)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 1) timer                          - epoch: -1.000, value:  0.008 (event:reduce.mean.pack)
+(Rank 1) timer                          - epoch: -1.000, value:  0.024 (event:reduce.mean.allreduce)
+(Rank 1) timer                          - epoch: -1.000, value:  0.009 (event:reduce.mean.unpack)
+(Rank 1) timer                          - epoch: -1.000, value:  0.044 (event:reduce.reduce)
+(Rank 1) timer                          - epoch:  0.008, value:  0.049 (event:batch.reduce)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:batch.reporting.compr_err)
+(Rank 1) timer                          - epoch:  0.008, value:  0.009 (event:batch.wd)
+(Rank 1) timer                          - epoch:  0.008, value:  0.023 (event:batch.mom)
+(Rank 1) timer                          - epoch:  0.008, value:  0.010 (event:batch.step)
+(Rank 1) timer                          - epoch:  0.008, value:  0.018 (event:batch.update_runavg)
+(Rank 1) timer                          - epoch:  0.008, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 1) timer                          - epoch:  0.008, value:  1.254 (event:batch)
+(Rank 1) timer                          - epoch:  1.000, value:  0.024 (event:batch.evaluate)
+(Rank 1) timer                          - epoch:  0.015, value:  0.000 (event:batch.reporting.lr)
+(Rank 1) timer                          - epoch:  0.015, value:  0.014 (event:batch.accumulate)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 1) timer                          - epoch: -1.000, value:  0.005 (event:reduce.mean.pack)
+(Rank 1) timer                          - epoch: -1.000, value:  0.008 (event:reduce.mean.unpack)
+(Rank 1) timer                          - epoch: -1.000, value:  0.039 (event:reduce.reduce)
+(Rank 1) timer                          - epoch:  0.015, value:  0.042 (event:batch.reduce)
+(Rank 1) timer                          - epoch:  0.015, value:  0.009 (event:batch.wd)
+(Rank 1) timer                          - epoch:  0.015, value:  0.023 (event:batch.mom)
+(Rank 1) timer                          - epoch:  0.015, value:  0.017 (event:batch.update_runavg)
+(Rank 1) timer                          - epoch:  0.015, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 1) timer                          - epoch:  0.015, value:  1.290 (event:batch)
+(Rank 1) timer                          - epoch: -1.000, value:  0.002 (event:reduce.zero_mem)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 1) timer                          - epoch: -1.000, value:  0.044 (event:reduce.mean.allreduce)
+(Rank 1) timer                          - epoch: -1.000, value:  0.008 (event:reduce.mean.unpack)
+(Rank 1) timer                          - epoch: -1.000, value:  0.060 (event:reduce.reduce)
+(Rank 1) timer                          - epoch:  0.023, value:  0.023 (event:batch.mom)
+(Rank 1) timer                          - epoch:  0.023, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 1) timer                          - epoch:  1.000, value:  0.025 (event:batch.evaluate)
+(Rank 1) timer                          - epoch:  0.031, value:  0.012 (event:batch.accumulate)
+(Rank 1) timer                          - epoch:  0.031, value:  0.084 (event:batch.reduce)
+(Rank 1) timer                          - epoch: -1.000, value:  0.001 (event:batch.reporting.compr_err)
+(Rank 1) timer                          - epoch:  0.031, value:  1.250 (event:batch)
+(Rank 1) timer                          - epoch:  0.038, value:  0.000 (event:batch.reporting.lr)
+(Rank 1) timer                          - epoch: -1.000, value:  0.002 (event:reduce.zero_mem)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 1) timer                          - epoch: -1.000, value:  0.038 (event:reduce.reduce)
+(Rank 1) timer                          - epoch:  0.038, value:  0.023 (event:batch.mom)
+(Rank 1) timer                          - epoch:  0.038, value:  0.011 (event:batch.step)
+(Rank 1) timer                          - epoch:  0.046, value:  0.017 (event:batch.update_runavg)
+(Rank 1) timer                          - epoch:  1.000, value:  0.698 (event:batch.backward)
+(Rank 1) timer                          - epoch:  1.000, value:  0.029 (event:batch.evaluate)
+(Rank 1) timer                          - epoch:  0.054, value:  0.066 (event:batch.reduce)
+(Rank 1) timer                          - epoch:  0.054, value:  0.018 (event:batch.update_runavg)
+(Rank 1) timer                          - epoch:  1.000, value:  0.709 (event:batch.backward)
+(Rank 1) timer                          - epoch:  1.000, value:  0.034 (event:batch.evaluate)
+(Rank 1) timer                          - epoch:  0.062, value:  0.000 (event:batch.reporting.lr)
+(Rank 1) timer                          - epoch:  0.062, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 1) timer                          - epoch:  0.077, value:  0.008 (event:batch.accumulate)
+(Rank 1) timer                          - epoch: -1.000, value:  0.040 (event:reduce.reduce)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:batch.reporting.compr_err)
+(Rank 1) timer                          - epoch:  0.077, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 1) timer                          - epoch:  1.000, value:  0.027 (event:batch.evaluate)
+(Rank 1) timer                          - epoch:  0.085, value:  0.018 (event:batch.update_runavg)
+(Rank 1) timer                          - epoch: -1.000, value:  0.002 (event:reduce.zero_mem)
+(Rank 1) timer                          - epoch: -1.000, value:  0.002 (event:reduce.zero_mem)
+(Rank 1) timer                          - epoch: -1.000, value:  0.039 (event:reduce.reduce)
+(Rank 1) timer                          - epoch:  0.115, value:  0.000 (event:batch.reporting.lr)
+(Rank 1) timer                          - epoch: -1.000, value:  0.022 (event:reduce.mean.allreduce)
+(Rank 1) timer                          - epoch: -1.000, value:  0.058 (event:reduce.reduce)
+(Rank 1) timer                          - epoch:  0.123, value:  0.060 (event:batch.reduce)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:batch.reporting.compr_err)
+(Rank 1) timer                          - epoch: -1.000, value:  0.043 (event:reduce.reduce)
+(Rank 1) timer                          - epoch:  1.000, value:  0.034 (event:batch.evaluate)
+(Rank 1) timer                          - epoch: -1.000, value:  0.001 (event:batch.reporting.compr_err)
+(Rank 1) timer                          - epoch:  0.146, value:  0.008 (event:batch.accumulate)
+(Rank 1) timer                          - epoch: -1.000, value:  0.007 (event:reduce.mean.unpack)
+(Rank 1) timer                          - epoch: -1.000, value:  0.042 (event:reduce.reduce)
+(Rank 1) timer                          - epoch:  0.162, value:  0.019 (event:batch.update_runavg)
+(Rank 1) timer                          - epoch:  1.000, value:  0.029 (event:batch.evaluate)
+(Rank 1) timer                          - epoch:  0.169, value:  0.000 (event:batch.reporting.lr)
+(Rank 1) timer                          - epoch:  0.177, value:  1.441 (event:batch)
+(Rank 1) timer                          - epoch:  0.185, value:  0.019 (event:batch.update_runavg)
+(Rank 1) timer                          - epoch:  0.185, value:  1.385 (event:batch)
+(Rank 0) timer                          - epoch:  1.000, value:  0.357 (event:batch.forward)
+(Rank 0) timer                          - epoch:  1.000, value:  0.734 (event:batch.backward)
+(Rank 0) timer                          - epoch:  1.000, value:  0.033 (event:batch.evaluate)
+(Rank 0) timer                          - epoch:  0.008, value:  0.000 (event:batch.reporting.lr)
+(Rank 0) timer                          - epoch:  0.008, value:  0.015 (event:batch.accumulate)
+(Rank 0) timer                          - epoch: -1.000, value:  0.004 (event:reduce.zero_mem)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 0) timer                          - epoch: -1.000, value:  0.009 (event:reduce.mean.pack)
+(Rank 0) timer                          - epoch: -1.000, value:  0.026 (event:reduce.mean.allreduce)
+(Rank 0) timer                          - epoch: -1.000, value:  0.007 (event:reduce.mean.unpack)
+(Rank 0) timer                          - epoch: -1.000, value:  0.044 (event:reduce.reduce)
+(Rank 0) timer                          - epoch:  0.008, value:  0.049 (event:batch.reduce)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:batch.reporting.compr_err)
+(Rank 0) timer                          - epoch:  0.008, value:  0.012 (event:batch.wd)
+(Rank 0) timer                          - epoch:  0.008, value:  0.023 (event:batch.mom)
+(Rank 0) timer                          - epoch:  0.008, value:  0.009 (event:batch.step)
+(Rank 0) timer                          - epoch:  0.008, value:  0.018 (event:batch.update_runavg)
+(Rank 0) timer                          - epoch:  0.008, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 0) timer                          - epoch:  0.008, value:  1.263 (event:batch)
+(Rank 0) timer                          - epoch:  1.000, value:  0.393 (event:batch.forward)
+(Rank 0) timer                          - epoch:  1.000, value:  0.719 (event:batch.backward)
+(Rank 0) timer                          - epoch:  1.000, value:  0.036 (event:batch.evaluate)
+(Rank 0) timer                          - epoch:  0.015, value:  0.009 (event:batch.accumulate)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 0) timer                          - epoch: -1.000, value:  0.009 (event:reduce.mean.pack)
+(Rank 0) timer                          - epoch: -1.000, value:  0.035 (event:reduce.mean.allreduce)
+(Rank 0) timer                          - epoch: -1.000, value:  0.007 (event:reduce.mean.unpack)
+(Rank 0) timer                          - epoch:  0.015, value:  0.059 (event:batch.reduce)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:batch.reporting.compr_err)
+(Rank 0) timer                          - epoch:  0.015, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 0) timer                          - epoch:  0.015, value:  1.294 (event:batch)
+(Rank 0) timer                          - epoch:  0.023, value:  0.007 (event:batch.accumulate)
+(Rank 0) timer                          - epoch: -1.000, value:  0.002 (event:reduce.zero_mem)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 0) timer                          - epoch: -1.000, value:  0.009 (event:reduce.mean.unpack)
+(Rank 0) timer                          - epoch: -1.000, value:  0.038 (event:reduce.reduce)
+(Rank 0) timer                          - epoch:  0.023, value:  0.010 (event:batch.wd)
+(Rank 0) timer                          - epoch:  0.023, value:  0.023 (event:batch.mom)
+(Rank 0) timer                          - epoch:  0.023, value:  0.010 (event:batch.step)
+(Rank 0) timer                          - epoch:  0.023, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 0) timer                          - epoch:  1.000, value:  0.394 (event:batch.forward)
+(Rank 0) timer                          - epoch:  1.000, value:  0.026 (event:batch.evaluate)
+(Rank 0) timer                          - epoch:  0.031, value:  0.000 (event:batch.reporting.lr)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:batch.reporting.compr_err)
+(Rank 0) timer                          - epoch:  0.031, value:  0.023 (event:batch.mom)
+(Rank 0) timer                          - epoch:  1.000, value:  0.709 (event:batch.backward)
+(Rank 0) timer                          - epoch:  0.038, value:  0.013 (event:batch.accumulate)
+(Rank 0) timer                          - epoch: -1.000, value:  0.009 (event:reduce.mean.unpack)
+(Rank 0) timer                          - epoch:  0.038, value:  0.010 (event:batch.wd)
+(Rank 0) timer                          - epoch: -1.000, value:  0.005 (event:reduce.mean.pack)
+(Rank 0) timer                          - epoch: -1.000, value:  0.022 (event:reduce.mean.allreduce)
+(Rank 0) timer                          - epoch:  0.046, value:  0.041 (event:batch.reduce)
+(Rank 0) timer                          - epoch:  0.046, value:  0.022 (event:batch.mom)
+(Rank 0) timer                          - epoch:  0.046, value:  0.011 (event:batch.step)
+(Rank 0) timer                          - epoch:  0.054, value:  0.000 (event:batch.reporting.lr)
+(Rank 0) timer                          - epoch:  0.054, value:  0.008 (event:batch.accumulate)
+(Rank 0) timer                          - epoch: -1.000, value:  0.024 (event:reduce.mean.allreduce)
+(Rank 0) timer                          - epoch:  0.062, value:  0.022 (event:batch.mom)
+(Rank 0) timer                          - epoch:  0.062, value:  0.020 (event:batch.update_runavg)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 0) timer                          - epoch: -1.000, value:  0.005 (event:reduce.mean.pack)
+(Rank 0) timer                          - epoch: -1.000, value:  0.009 (event:reduce.mean.unpack)
+(Rank 0) timer                          - epoch:  0.069, value:  0.011 (event:batch.step)
+(Rank 0) timer                          - epoch:  0.077, value:  0.074 (event:batch.reduce)
+(Rank 0) timer                          - epoch: -1.000, value:  0.002 (event:reduce.zero_mem)
+(Rank 0) timer                          - epoch:  1.000, value:  0.397 (event:batch.forward)
+(Rank 0) timer                          - epoch:  0.092, value:  0.023 (event:batch.mom)
+(Rank 0) timer                          - epoch: -1.000, value:  0.008 (event:reduce.mean.unpack)
+(Rank 0) timer                          - epoch:  1.000, value:  0.368 (event:batch.forward)
+(Rank 0) timer                          - epoch: -1.000, value:  0.005 (event:reduce.mean.pack)
+(Rank 0) timer                          - epoch: -1.000, value:  0.005 (event:reduce.mean.pack)
+(Rank 0) timer                          - epoch: -1.000, value:  0.058 (event:reduce.reduce)
+(Rank 0) timer                          - epoch:  0.131, value:  0.008 (event:batch.step)
+(Rank 0) timer                          - epoch:  0.146, value:  0.010 (event:batch.step)
+(Rank 0) timer                          - epoch: -1.000, value:  0.087 (event:reduce.reduce)
+(Rank 0) timer                          - epoch:  0.162, value:  0.009 (event:batch.wd)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 0) timer                          - epoch: -1.000, value:  0.005 (event:reduce.mean.pack)
+(Rank 0) timer                          - epoch:  0.200, value:  0.009 (event:batch.accumulate)
+(Rank 0) timer                          - epoch: -1.000, value:  0.009 (event:reduce.mean.unpack)
+(Rank 0) timer                          - epoch:  0.238, value:  0.018 (event:batch.update_runavg)
+(Rank 0) timer                          - epoch:  0.238, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 0) timer                          - epoch:  0.277, value:  0.010 (event:batch.step)
+(Rank 0) timer                          - epoch:  0.285, value:  0.023 (event:batch.mom)
+(Rank 0) timer                          - epoch:  1.000, value:  0.371 (event:batch.forward)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 1) timer                          - epoch:  0.200, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 1) timer                          - epoch: -1.000, value:  0.025 (event:reduce.mean.allreduce)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:batch.reporting.compr_err)
+(Rank 1) timer                          - epoch:  0.215, value:  0.011 (event:batch.step)
+(Rank 1) timer                          - epoch:  0.223, value:  0.000 (event:batch.reporting.lr)
+(Rank 1) timer                          - epoch:  0.254, value:  0.023 (event:batch.mom)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:batch.reporting.compr_err)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 1) timer                          - epoch: -1.000, value:  0.058 (event:reduce.reduce)
+(Rank 1) timer                          - epoch:  0.300, value:  0.008 (event:batch.accumulate)
+(Rank 1) timer                          - epoch:  0.300, value:  0.009 (event:batch.wd)
+(Rank 1) timer                          - epoch:  0.315, value:  0.009 (event:batch.accumulate)
+(Rank 1) timer                          - epoch:  0.354, value:  0.019 (event:batch.update_runavg)
+(Rank 1) timer                          - epoch: -1.000, value:  0.005 (event:reduce.mean.pack)
+(Rank 1) timer                          - epoch:  0.385, value:  0.008 (event:batch.step)
+(Rank 1) timer                          - epoch: -1.000, value:  0.005 (event:reduce.mean.pack)
+(Rank 1) timer                          - epoch: -1.000, value:  0.041 (event:reduce.reduce)
+(Rank 1) timer                          - epoch:  0.438, value:  1.282 (event:batch)
+(Rank 1) timer                          - epoch:  0.485, value:  0.045 (event:batch.reduce)
+(Rank 1) timer                          - epoch: -1.000, value:  0.002 (event:reduce.zero_mem)
+(Rank 1) timer                          - epoch:  0.523, value:  0.010 (event:batch.wd)
+(Rank 1) timer                          - epoch:  1.000, value:  0.710 (event:batch.backward)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 1) timer                          - epoch:  1.000, value:  0.023 (event:batch.evaluate)
+(Rank 1) timer                          - epoch:  0.577, value:  0.019 (event:batch.update_runavg)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 1) timer                          - epoch:  0.631, value:  1.319 (event:batch)
+(Rank 1) timer                          - epoch:  0.685, value:  0.024 (event:batch.mom)
+(Rank 1) effective_lr                   - epoch:  0.692, value:  0.082 (weight:rnn.bias_ih_l0)
+(Rank 1) grad_norm                      - epoch:  0.692, value:  0.001 (weight:rnn.bias_ih_l0)
+(Rank 1) timer                          - epoch: -1.000, value:  0.008 (event:reduce.mean.unpack)
+(Rank 1) timer                          - epoch:  0.800, value:  0.000 (event:batch.reporting.lr)
+(Rank 1) timer                          - epoch:  0.823, value:  0.008 (event:batch.accumulate)
+(Rank 1) rel_compression_error          - epoch:  0.923, value:  0.000 (weight:rnn.bias_ih_l0)
+(Rank 1) timer                          - epoch:  1.000, value:  0.030 (event:batch.evaluate)
+(Rank 1) timer                          - epoch:  1.000, value:  0.035 (event:batch.evaluate)
+(Rank 1) cross_entropy                  - bits:68586860160.000, epoch:  1.000, value:  7.167 (split:train)
+(Rank 1) last_cross_entropy             - bits:68586860160.000, epoch:  1.000, value:  7.167 (split:train)
+(Rank 1) perplexity                     - bits:68586860160.000, epoch:  1.000, value:2061.668 (split:train)
+(Rank 1) last_perplexity                - bits:68586860160.000, epoch:  1.000, value:2061.668 (split:train)
+(Rank 1) last_cross_entropy             - bits:68586860160.000, epoch:  1.000, value:  6.495 (split:test)
+(Rank 1) last_perplexity                - bits:68586860160.000, epoch:  1.000, value:663.718 (split:test)
+(Rank 1) runavg_cross_entropy           - bits:68586860160.000, epoch:  1.000, value:  6.554 (split:test)
+(Rank 1) runavg_perplexity              - bits:68586860160.000, epoch:  1.000, value:703.477 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |    129 |     1.31301s | 100.0%
+- batch.accumulate               |    129 |     0.01004s |   0.8%
+- batch.backward                 |    129 |     0.74806s |  57.1%
+- batch.evaluate                 |    129 |     0.02841s |   2.2%
+- batch.forward                  |    129 |     0.38964s |  29.8%
+- batch.mom                      |    129 |     0.02302s |   1.8%
+- batch.reduce                   |    129 |     0.05754s |   4.4%
+- batch.reporting.compr_err      |    129 |     0.00019s |   0.0%
+- batch.reporting.lr             |    129 |     0.00029s |   0.0%
+- batch.reporting.memory_norm    |    129 |     0.00001s |   0.0%
+- batch.step                     |    129 |     0.01005s |   0.8%
+- batch.update_runavg            |    129 |     0.01841s |   1.4%
+- batch.wd                       |    129 |     0.00950s |   0.7%
+- reduce.build_lists             |    129 |     0.00000s |   0.0%
+- reduce.mean.allreduce          |    129 |     0.03745s |   2.9%
+- reduce.mean.pack               |    129 |     0.00606s |   0.5%
+- reduce.mean.unpack             |    129 |     0.00822s |   0.6%
+- reduce.reduce                  |    129 |     0.05471s |   4.2%
+- reduce.zero_mem                |    129 |     0.00272s |   0.2%
+-----------------------------------------------------------------
+
+(Rank 1) timer                          - epoch:  1.008, value:  0.008 (event:batch.accumulate)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 1) timer                          - epoch:  1.054, value:  1.294 (event:batch)
+(Rank 1) timer                          - epoch: -1.000, value:  0.039 (event:reduce.reduce)
+(Rank 1) effective_lr                   - epoch:  1.085, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 1) grad_norm                      - epoch:  1.085, value:  0.002 (weight:rnn.weight_ih_l1)
+(Rank 1) timer                          - epoch:  1.231, value:  0.044 (event:batch.reduce)
+(Rank 1) timer                          - epoch: -1.000, value:  0.036 (event:reduce.reduce)
+(Rank 1) timer                          - epoch:  1.354, value:  0.020 (event:batch.update_runavg)
+(Rank 1) timer                          - epoch:  1.408, value:  0.010 (event:batch.wd)
+(Rank 1) timer                          - epoch:  1.415, value:  0.026 (event:batch.mom)
+(Rank 1) timer                          - epoch:  1.454, value:  0.047 (event:batch.reduce)
+(Rank 1) rel_compression_error          - epoch:  1.462, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 1) timer                          - epoch: -1.000, value:  0.042 (event:reduce.reduce)
+(Rank 1) timer                          - epoch:  2.000, value:  0.022 (event:batch.evaluate)
+(Rank 1) effective_lr                   - epoch:  1.492, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 1) grad_norm                      - epoch:  1.492, value:  0.001 (weight:rnn.weight_hh_l0)
+(Rank 1) timer                          - epoch:  1.508, value:  0.010 (event:batch.step)
+(Rank 1) timer                          - epoch: -1.000, value:  0.040 (event:reduce.reduce)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 1) timer                          - epoch:  1.685, value:  0.018 (event:batch.update_runavg)
+(Rank 1) timer                          - epoch:  1.700, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 1) timer                          - epoch:  1.708, value:  0.023 (event:batch.mom)
+(Rank 1) timer                          - epoch:  2.000, value:  0.399 (event:batch.forward)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 1) rel_compression_error          - epoch:  1.862, value:  0.000 (weight:decoder.bias)
+(Rank 0) timer                          - epoch: -1.000, value:  0.006 (event:reduce.mean.pack)
+(Rank 0) timer                          - epoch: -1.000, value:  0.007 (event:reduce.mean.pack)
+(Rank 0) timer                          - epoch: -1.000, value:  0.009 (event:reduce.mean.unpack)
+(Rank 0) timer                          - epoch:  0.369, value:  0.023 (event:batch.mom)
+(Rank 0) rel_compression_error          - epoch:  0.415, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 0) timer                          - epoch: -1.000, value:  0.007 (event:reduce.mean.unpack)
+(Rank 0) timer                          - epoch:  0.438, value:  0.016 (event:batch.update_runavg)
+(Rank 0) timer                          - epoch:  0.462, value:  0.009 (event:batch.wd)
+(Rank 0) timer                          - epoch:  1.000, value:  0.021 (event:batch.evaluate)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 0) timer                          - epoch:  1.000, value:  0.034 (event:batch.evaluate)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 0) timer                          - epoch: -1.000, value:  0.040 (event:reduce.reduce)
+(Rank 0) memory_norm                    - epoch:  0.577, value:  0.000 (weight:encoder.weight)
+(Rank 0) memory_norm                    - epoch:  0.577, value:  0.000 (weight:rnn.weight_ih_l0)
+(Rank 0) memory_norm                    - epoch:  0.577, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 0) memory_norm                    - epoch:  0.577, value:  0.000 (weight:rnn.bias_ih_l0)
+(Rank 0) memory_norm                    - epoch:  0.577, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 0) memory_norm                    - epoch:  0.577, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 0) memory_norm                    - epoch:  0.577, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 0) memory_norm                    - epoch:  0.577, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 0) memory_norm                    - epoch:  0.577, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 0) memory_norm                    - epoch:  0.577, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 0) memory_norm                    - epoch:  0.577, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 0) memory_norm                    - epoch:  0.577, value:  0.000 (weight:rnn.bias_ih_l2)
+(Rank 0) memory_norm                    - epoch:  0.577, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 0) memory_norm                    - epoch:  0.577, value:  0.000 (weight:decoder.bias)
+(Rank 0) compression_error              - epoch:  0.577, value:  0.000 ()
+(Rank 0) timer                          - epoch: -1.000, value:  0.002 (event:reduce.zero_mem)
+(Rank 0) timer                          - epoch:  0.623, value:  0.010 (event:batch.step)
+(Rank 0) timer                          - epoch:  0.631, value:  1.322 (event:batch)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 0) timer                          - epoch:  0.662, value:  0.023 (event:batch.mom)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:batch.reporting.compr_err)
+(Rank 0) timer                          - epoch: -1.000, value:  0.009 (event:reduce.mean.unpack)
+(Rank 0) timer                          - epoch:  0.762, value:  0.011 (event:batch.step)
+(Rank 0) timer                          - epoch: -1.000, value:  0.009 (event:reduce.mean.unpack)
+(Rank 0) effective_lr                   - epoch:  0.800, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 0) grad_norm                      - epoch:  0.800, value:  0.001 (weight:rnn.weight_hh_l0)
+(Rank 0) timer                          - epoch: -1.000, value:  0.054 (event:reduce.mean.allreduce)
+(Rank 0) timer                          - epoch:  0.938, value:  0.044 (event:batch.reduce)
+(Rank 0) cross_entropy                  - bits:68586860160.000, epoch:  1.000, value:  7.167 (split:train)
+(Rank 0) last_cross_entropy             - bits:68586860160.000, epoch:  1.000, value:  7.167 (split:train)
+(Rank 0) perplexity                     - bits:68586860160.000, epoch:  1.000, value:2061.668 (split:train)
+(Rank 0) last_perplexity                - bits:68586860160.000, epoch:  1.000, value:2061.668 (split:train)
+(Rank 0) last_cross_entropy             - bits:68586860160.000, epoch:  1.000, value:  6.495 (split:test)
+(Rank 0) last_perplexity                - bits:68586860160.000, epoch:  1.000, value:663.718 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:68586860160.000, epoch:  1.000, value:  6.554 (split:test)
+(Rank 0) runavg_perplexity              - bits:68586860160.000, epoch:  1.000, value:703.477 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |    129 |     1.31305s | 100.0%
+- batch.accumulate               |    129 |     0.01060s |   0.8%
+- batch.backward                 |    129 |     0.74359s |  56.8%
+- batch.evaluate                 |    129 |     0.02787s |   2.1%
+- batch.forward                  |    129 |     0.39129s |  29.9%
+- batch.mom                      |    129 |     0.02288s |   1.8%
+- batch.reduce                   |    129 |     0.06020s |   4.6%
+- batch.reporting.compr_err      |    129 |     0.00025s |   0.0%
+- batch.reporting.lr             |    129 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |    129 |     0.00012s |   0.0%
+- batch.step                     |    129 |     0.00996s |   0.8%
+- batch.update_runavg            |    129 |     0.01835s |   1.4%
+- batch.wd                       |    129 |     0.00967s |   0.7%
+- reduce.build_lists             |    129 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |    129 |     0.03975s |   3.0%
+- reduce.mean.pack               |    129 |     0.00615s |   0.5%
+- reduce.mean.unpack             |    129 |     0.00835s |   0.6%
+- reduce.reduce                  |    129 |     0.05731s |   4.4%
+- reduce.zero_mem                |    129 |     0.00278s |   0.2%
+-----------------------------------------------------------------
+
+(Rank 0) timer                          - epoch:  1.123, value:  0.008 (event:batch.accumulate)
+(Rank 0) rel_compression_error          - epoch:  1.162, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 0) timer                          - epoch:  1.215, value:  0.000 (event:batch.reporting.lr)
+(Rank 0) timer                          - epoch: -1.000, value:  0.008 (event:reduce.mean.unpack)
+(Rank 0) rel_compression_error          - epoch:  1.246, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 0) rel_compression_error          - epoch:  1.300, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 0) timer                          - epoch:  1.346, value:  0.048 (event:batch.reduce)
+(Rank 0) rel_compression_error          - epoch:  1.362, value:  0.000 (weight:rnn.bias_ih_l0)
+(Rank 0) timer                          - epoch:  1.431, value:  0.010 (event:batch.step)
+(Rank 0) rel_compression_error          - epoch:  1.469, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 0) timer                          - epoch:  2.000, value:  0.726 (event:batch.backward)
+(Rank 0) rel_compression_error          - epoch:  1.585, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 0) rel_compression_error          - epoch:  1.608, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 0) timer                          - epoch:  1.854, value:  0.000 (event:batch.reporting.lr)
+(Rank 0) timer                          - epoch:  1.900, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 0) timer                          - epoch:  2.000, value:  0.365 (event:batch.forward)
+(Rank 0) cross_entropy                  - bits:137173720320.000, epoch:  2.000, value:  6.521 (split:train)
+(Rank 0) last_cross_entropy             - bits:137173720320.000, epoch:  2.000, value:  6.521 (split:train)
+(Rank 0) perplexity                     - bits:137173720320.000, epoch:  2.000, value:679.831 (split:train)
+(Rank 1) timer                          - epoch: -1.000, value:  0.064 (event:reduce.reduce)
+(Rank 1) timer                          - epoch:  1.977, value:  1.276 (event:batch)
+(Rank 1) cross_entropy                  - bits:137173720320.000, epoch:  2.000, value:  6.521 (split:train)
+(Rank 1) last_cross_entropy             - bits:137173720320.000, epoch:  2.000, value:  6.521 (split:train)
+(Rank 1) perplexity                     - bits:137173720320.000, epoch:  2.000, value:679.831 (split:train)
+(Rank 1) last_perplexity                - bits:137173720320.000, epoch:  2.000, value:679.831 (split:train)
+(Rank 1) timer                          - epoch:  2.000, value:  0.001 (event:epoch_metrics.collect)
+(Rank 1) last_cross_entropy             - bits:137173720320.000, epoch:  2.000, value:  6.433 (split:test)
+(Rank 1) last_perplexity                - bits:137173720320.000, epoch:  2.000, value:623.373 (split:test)
+(Rank 1) timer                          - epoch:  1.000, value:  3.772 (event:test.last)
+(Rank 1) runavg_cross_entropy           - bits:137173720320.000, epoch:  2.000, value:  6.481 (split:test)
+(Rank 1) runavg_perplexity              - bits:137173720320.000, epoch:  2.000, value:653.817 (split:test)
+(Rank 1) timer                          - epoch:  1.000, value:  4.386 (event:test.runavg)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |    259 |     1.34087s |  97.4%
+- batch.accumulate               |    259 |     0.01019s |   0.7%
+- batch.backward                 |    259 |     0.76620s |  55.7%
+- batch.evaluate                 |    259 |     0.02871s |   2.1%
+- batch.forward                  |    259 |     0.39707s |  28.9%
+- batch.mom                      |    259 |     0.02302s |   1.7%
+- batch.reduce                   |    259 |     0.05964s |   4.3%
+- batch.reporting.compr_err      |    259 |     0.00018s |   0.0%
+- batch.reporting.lr             |    259 |     0.00023s |   0.0%
+- batch.reporting.memory_norm    |    259 |     0.00001s |   0.0%
+- batch.step                     |    259 |     0.00988s |   0.7%
+- batch.update_runavg            |    259 |     0.01842s |   1.3%
+- batch.wd                       |    259 |     0.00940s |   0.7%
+- epoch_metrics.collect          |      1 |     0.00133s | 100.0%
+- reduce.build_lists             |    259 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |    259 |     0.03955s |   2.9%
+- reduce.mean.pack               |    259 |     0.00611s |   0.4%
+- reduce.mean.unpack             |    259 |     0.00825s |   0.6%
+- reduce.reduce                  |    259 |     0.05681s |   4.1%
+- reduce.zero_mem                |    259 |     0.00273s |   0.2%
+- test.last                      |      1 |     3.77166s | 100.0%
+- test.runavg                    |      1 |     4.38640s | 100.0%
+-----------------------------------------------------------------
+
+(Rank 1) effective_lr                   - epoch:  2.000, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 1) grad_norm                      - epoch:  2.000, value:  0.005 (weight:rnn.weight_ih_l1)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:batch.reporting.compr_err)
+(Rank 1) timer                          - epoch:  2.046, value:  0.011 (event:batch.step)
+(Rank 1) effective_lr                   - epoch:  2.323, value:  0.112 (weight:rnn.bias_ih_l0)
+(Rank 1) grad_norm                      - epoch:  2.323, value:  0.001 (weight:rnn.bias_ih_l0)
+(Rank 1) timer                          - epoch: -1.000, value:  0.008 (event:reduce.mean.unpack)
+(Rank 1) timer                          - epoch: -1.000, value:  0.002 (event:reduce.zero_mem)
+(Rank 1) rel_compression_error          - epoch:  2.508, value:  0.000 (weight:rnn.bias_ih_l0)
+(Rank 1) timer                          - epoch:  2.569, value:  0.008 (event:batch.accumulate)
+(Rank 1) timer                          - epoch:  2.815, value:  1.342 (event:batch)
+(Rank 1) effective_lr                   - epoch:  2.885, value:  0.000 (weight:encoder.weight)
+(Rank 1) grad_norm                      - epoch:  2.885, value:  0.147 (weight:encoder.weight)
+(Rank 1) rel_compression_error          - epoch:  2.885, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 1) cross_entropy                  - bits:205760580480.000, epoch:  3.000, value:  6.477 (split:train)
+(Rank 1) last_cross_entropy             - bits:205760580480.000, epoch:  3.000, value:  6.477 (split:train)
+(Rank 1) perplexity                     - bits:205760580480.000, epoch:  3.000, value:650.343 (split:train)
+(Rank 1) last_perplexity                - bits:205760580480.000, epoch:  3.000, value:650.343 (split:train)
+(Rank 1) timer                          - epoch:  3.000, value:  0.001 (event:epoch_metrics.collect)
+(Rank 1) last_cross_entropy             - bits:205760580480.000, epoch:  3.000, value:  6.419 (split:test)
+(Rank 1) last_perplexity                - bits:205760580480.000, epoch:  3.000, value:614.534 (split:test)
+(Rank 1) timer                          - epoch:  2.000, value:  3.763 (event:test.last)
+(Rank 1) runavg_cross_entropy           - bits:205760580480.000, epoch:  3.000, value:  6.458 (split:test)
+(Rank 1) runavg_perplexity              - bits:205760580480.000, epoch:  3.000, value:639.200 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |    389 |     1.36557s |  96.8%
+- batch.accumulate               |    389 |     0.01009s |   0.7%
+- batch.backward                 |    389 |     0.78310s |  55.6%
+- batch.evaluate                 |    389 |     0.02874s |   2.0%
+- batch.forward                  |    389 |     0.40499s |  28.7%
+- batch.mom                      |    389 |     0.02310s |   1.6%
+- batch.reduce                   |    389 |     0.05918s |   4.2%
+- batch.reporting.compr_err      |    389 |     0.00020s |   0.0%
+- batch.reporting.lr             |    389 |     0.00021s |   0.0%
+- batch.reporting.memory_norm    |    389 |     0.00001s |   0.0%
+- batch.step                     |    389 |     0.00993s |   0.7%
+- batch.update_runavg            |    389 |     0.01847s |   1.3%
+- batch.wd                       |    389 |     0.00950s |   0.7%
+- epoch_metrics.collect          |      2 |     0.00101s |   0.0%
+- reduce.build_lists             |    389 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |    389 |     0.03892s |   2.8%
+- reduce.mean.pack               |    389 |     0.00607s |   0.4%
+- reduce.mean.unpack             |    389 |     0.00833s |   0.6%
+- reduce.reduce                  |    389 |     0.05634s |   4.0%
+- reduce.zero_mem                |    389 |     0.00274s |   0.2%
+- test.last                      |      2 |     3.76744s |   3.8%
+- test.runavg                    |      2 |     4.07426s |   4.2%
+-----------------------------------------------------------------
+
+(Rank 1) timer                          - epoch: -1.000, value:  0.002 (event:reduce.zero_mem)
+(Rank 1) memory_norm                    - epoch:  3.108, value:  0.000 (weight:encoder.weight)
+(Rank 1) memory_norm                    - epoch:  3.108, value:  0.000 (weight:rnn.weight_ih_l0)
+(Rank 1) memory_norm                    - epoch:  3.108, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 1) memory_norm                    - epoch:  3.108, value:  0.000 (weight:rnn.bias_ih_l0)
+(Rank 1) memory_norm                    - epoch:  3.108, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 1) memory_norm                    - epoch:  3.108, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 1) memory_norm                    - epoch:  3.108, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 1) memory_norm                    - epoch:  3.108, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 1) memory_norm                    - epoch:  3.108, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 1) memory_norm                    - epoch:  3.108, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 1) memory_norm                    - epoch:  3.108, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 0) last_perplexity                - bits:137173720320.000, epoch:  2.000, value:679.831 (split:train)
+(Rank 0) timer                          - epoch:  2.000, value:  0.002 (event:epoch_metrics.collect)
+(Rank 0) last_cross_entropy             - bits:137173720320.000, epoch:  2.000, value:  6.433 (split:test)
+(Rank 0) last_perplexity                - bits:137173720320.000, epoch:  2.000, value:623.373 (split:test)
+(Rank 0) timer                          - epoch:  1.000, value:  3.772 (event:test.last)
+(Rank 0) runavg_cross_entropy           - bits:137173720320.000, epoch:  2.000, value:  6.481 (split:test)
+(Rank 0) runavg_perplexity              - bits:137173720320.000, epoch:  2.000, value:653.817 (split:test)
+(Rank 0) timer                          - epoch:  1.000, value:  4.386 (event:test.runavg)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |    259 |     1.34099s |  97.4%
+- batch.accumulate               |    259 |     0.01032s |   0.8%
+- batch.backward                 |    259 |     0.76430s |  55.6%
+- batch.evaluate                 |    259 |     0.02829s |   2.1%
+- batch.forward                  |    259 |     0.39923s |  29.1%
+- batch.mom                      |    259 |     0.02289s |   1.7%
+- batch.reduce                   |    259 |     0.05949s |   4.3%
+- batch.reporting.compr_err      |    259 |     0.00023s |   0.0%
+- batch.reporting.lr             |    259 |     0.00015s |   0.0%
+- batch.reporting.memory_norm    |    259 |     0.00007s |   0.0%
+- batch.step                     |    259 |     0.00996s |   0.7%
+- batch.update_runavg            |    259 |     0.01824s |   1.3%
+- batch.wd                       |    259 |     0.00971s |   0.7%
+- epoch_metrics.collect          |      1 |     0.00188s | 100.0%
+- reduce.build_lists             |    259 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |    259 |     0.03894s |   2.8%
+- reduce.mean.pack               |    259 |     0.00607s |   0.4%
+- reduce.mean.unpack             |    259 |     0.00837s |   0.6%
+- reduce.reduce                  |    259 |     0.05665s |   4.1%
+- reduce.zero_mem                |    259 |     0.00273s |   0.2%
+- test.last                      |      1 |     3.77167s | 100.0%
+- test.runavg                    |      1 |     4.38649s | 100.0%
+-----------------------------------------------------------------
+
+(Rank 0) timer                          - epoch: -1.000, value:  0.043 (event:reduce.mean.allreduce)
+(Rank 0) rel_compression_error          - epoch:  2.515, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 0) rel_compression_error          - epoch:  2.562, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 0) effective_lr                   - epoch:  2.654, value:  0.015 (weight:decoder.bias)
+(Rank 0) grad_norm                      - epoch:  2.654, value:  0.019 (weight:decoder.bias)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 0) timer                          - epoch:  2.769, value:  0.018 (event:batch.update_runavg)
+(Rank 0) cross_entropy                  - bits:205760580480.000, epoch:  3.000, value:  6.477 (split:train)
+(Rank 0) last_cross_entropy             - bits:205760580480.000, epoch:  3.000, value:  6.477 (split:train)
+(Rank 0) perplexity                     - bits:205760580480.000, epoch:  3.000, value:650.343 (split:train)
+(Rank 0) last_perplexity                - bits:205760580480.000, epoch:  3.000, value:650.343 (split:train)
+(Rank 0) timer                          - epoch:  3.000, value:  0.000 (event:epoch_metrics.collect)
+(Rank 0) last_cross_entropy             - bits:205760580480.000, epoch:  3.000, value:  6.419 (split:test)
+(Rank 0) last_perplexity                - bits:205760580480.000, epoch:  3.000, value:614.534 (split:test)
+(Rank 0) timer                          - epoch:  2.000, value:  3.763 (event:test.last)
+(Rank 0) runavg_cross_entropy           - bits:205760580480.000, epoch:  3.000, value:  6.458 (split:test)
+(Rank 0) runavg_perplexity              - bits:205760580480.000, epoch:  3.000, value:639.200 (split:test)
+(Rank 0) timer                          - epoch:  2.000, value:  3.762 (event:test.runavg)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |    389 |     1.36567s |  96.8%
+- batch.accumulate               |    389 |     0.01060s |   0.8%
+- batch.backward                 |    389 |     0.77985s |  55.3%
+- batch.evaluate                 |    389 |     0.02865s |   2.0%
+- batch.forward                  |    389 |     0.40427s |  28.7%
+- batch.mom                      |    389 |     0.02301s |   1.6%
+- batch.reduce                   |    389 |     0.06236s |   4.4%
+- batch.reporting.compr_err      |    389 |     0.00021s |   0.0%
+- batch.reporting.lr             |    389 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |    389 |     0.00005s |   0.0%
+- batch.step                     |    389 |     0.00998s |   0.7%
+- batch.update_runavg            |    389 |     0.01835s |   1.3%
+- batch.wd                       |    389 |     0.00971s |   0.7%
+- epoch_metrics.collect          |      2 |     0.00113s |   0.0%
+- reduce.build_lists             |    389 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |    389 |     0.04142s |   2.9%
+- reduce.mean.pack               |    389 |     0.00635s |   0.5%
+- reduce.mean.unpack             |    389 |     0.00834s |   0.6%
+- reduce.reduce                  |    389 |     0.05946s |   4.2%
+- reduce.zero_mem                |    389 |     0.00279s |   0.2%
+- test.last                      |      2 |     3.76737s |   3.8%
+- test.runavg                    |      2 |     4.07442s |   4.2%
+-----------------------------------------------------------------
+
+(Rank 0) rel_compression_error          - epoch:  3.038, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 0) rel_compression_error          - epoch:  3.123, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 0) effective_lr                   - epoch:  3.515, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 0) grad_norm                      - epoch:  3.515, value:  0.004 (weight:rnn.weight_hh_l1)
+(Rank 0) timer                          - epoch: -1.000, value:  0.025 (event:reduce.mean.allreduce)
+(Rank 0) timer                          - epoch:  3.623, value:  0.013 (event:batch.accumulate)
+(Rank 0) timer                          - epoch:  3.638, value:  1.308 (event:batch)
+(Rank 0) timer                          - epoch:  3.738, value:  0.024 (event:batch.mom)
+(Rank 0) timer                          - epoch:  3.862, value:  0.061 (event:batch.reduce)
+(Rank 0) timer                          - epoch:  3.977, value:  0.011 (event:batch.wd)
+(Rank 0) cross_entropy                  - bits:274347440640.000, epoch:  4.000, value:  6.459 (split:train)
+(Rank 0) last_cross_entropy             - bits:274347440640.000, epoch:  4.000, value:  6.459 (split:train)
+(Rank 0) perplexity                     - bits:274347440640.000, epoch:  4.000, value:639.065 (split:train)
+(Rank 0) last_perplexity                - bits:274347440640.000, epoch:  4.000, value:639.065 (split:train)
+(Rank 0) last_cross_entropy             - bits:274347440640.000, epoch:  4.000, value:  6.413 (split:test)
+(Rank 0) last_perplexity                - bits:274347440640.000, epoch:  4.000, value:611.148 (split:test)
+(Rank 0) timer                          - epoch:  3.000, value:  3.701 (event:test.last)
+(Rank 0) runavg_cross_entropy           - bits:274347440640.000, epoch:  4.000, value:  6.446 (split:test)
+(Rank 0) runavg_perplexity              - bits:274347440640.000, epoch:  4.000, value:631.313 (split:test)
+(Rank 1) memory_norm                    - epoch:  3.108, value:  0.000 (weight:rnn.bias_ih_l2)
+(Rank 1) memory_norm                    - epoch:  3.108, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 1) memory_norm                    - epoch:  3.108, value:  0.000 (weight:decoder.bias)
+(Rank 1) compression_error              - epoch:  3.108, value:  0.000 ()
+(Rank 1) timer                          - epoch:  4.000, value:  0.403 (event:batch.forward)
+(Rank 1) timer                          - epoch: -1.000, value:  0.106 (event:reduce.mean.allreduce)
+(Rank 1) timer                          - epoch:  3.315, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 1) timer                          - epoch: -1.000, value:  0.010 (event:reduce.mean.pack)
+(Rank 1) timer                          - epoch: -1.000, value:  0.005 (event:reduce.zero_mem)
+(Rank 1) timer                          - epoch:  3.608, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 1) timer                          - epoch:  3.985, value:  0.009 (event:batch.step)
+(Rank 1) cross_entropy                  - bits:274347440640.000, epoch:  4.000, value:  6.459 (split:train)
+(Rank 1) last_cross_entropy             - bits:274347440640.000, epoch:  4.000, value:  6.459 (split:train)
+(Rank 1) perplexity                     - bits:274347440640.000, epoch:  4.000, value:639.065 (split:train)
+(Rank 1) last_perplexity                - bits:274347440640.000, epoch:  4.000, value:639.065 (split:train)
+(Rank 1) last_cross_entropy             - bits:274347440640.000, epoch:  4.000, value:  6.413 (split:test)
+(Rank 1) last_perplexity                - bits:274347440640.000, epoch:  4.000, value:611.148 (split:test)
+(Rank 1) runavg_cross_entropy           - bits:274347440640.000, epoch:  4.000, value:  6.446 (split:test)
+(Rank 1) runavg_perplexity              - bits:274347440640.000, epoch:  4.000, value:631.313 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |    519 |     1.37805s |  96.6%
+- batch.accumulate               |    519 |     0.01018s |   0.7%
+- batch.backward                 |    519 |     0.79042s |  55.4%
+- batch.evaluate                 |    519 |     0.02887s |   2.0%
+- batch.forward                  |    519 |     0.40928s |  28.7%
+- batch.mom                      |    519 |     0.02323s |   1.6%
+- batch.reduce                   |    519 |     0.05946s |   4.2%
+- batch.reporting.compr_err      |    519 |     0.00019s |   0.0%
+- batch.reporting.lr             |    519 |     0.00019s |   0.0%
+- batch.reporting.memory_norm    |    519 |     0.00003s |   0.0%
+- batch.step                     |    519 |     0.00997s |   0.7%
+- batch.update_runavg            |    519 |     0.01858s |   1.3%
+- batch.wd                       |    519 |     0.00955s |   0.7%
+- epoch_metrics.collect          |      3 |     0.00079s |   0.0%
+- reduce.build_lists             |    519 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |    519 |     0.03901s |   2.7%
+- reduce.mean.pack               |    519 |     0.00608s |   0.4%
+- reduce.mean.unpack             |    519 |     0.00837s |   0.6%
+- reduce.reduce                  |    519 |     0.05658s |   4.0%
+- reduce.zero_mem                |    519 |     0.00277s |   0.2%
+- test.last                      |      3 |     3.74517s |   2.9%
+- test.runavg                    |      3 |     3.98314s |   3.1%
+-----------------------------------------------------------------
+
+(Rank 1) timer                          - epoch:  4.000, value:  0.022 (event:batch.mom)
+(Rank 1) timer                          - epoch:  5.000, value:  0.743 (event:batch.backward)
+(Rank 1) timer                          - epoch:  4.238, value:  1.281 (event:batch)
+(Rank 1) timer                          - epoch:  4.408, value:  0.008 (event:batch.accumulate)
+(Rank 1) timer                          - epoch: -1.000, value:  0.007 (event:reduce.mean.pack)
+(Rank 1) rel_compression_error          - epoch:  4.592, value:  0.000 (weight:decoder.bias)
+(Rank 1) timer                          - epoch: -1.000, value:  0.050 (event:reduce.mean.allreduce)
+(Rank 1) effective_lr                   - epoch:  4.946, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 1) grad_norm                      - epoch:  4.946, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 1) cross_entropy                  - bits:342934300800.000, epoch:  5.000, value:  6.449 (split:train)
+(Rank 1) last_cross_entropy             - bits:342934300800.000, epoch:  5.000, value:  6.449 (split:train)
+(Rank 1) perplexity                     - bits:342934300800.000, epoch:  5.000, value:632.813 (split:train)
+(Rank 1) last_perplexity                - bits:342934300800.000, epoch:  5.000, value:632.813 (split:train)
+(Rank 1) last_cross_entropy             - bits:342934300800.000, epoch:  5.000, value:  6.411 (split:test)
+(Rank 1) last_perplexity                - bits:342934300800.000, epoch:  5.000, value:609.727 (split:test)
+(Rank 1) runavg_cross_entropy           - bits:342934300800.000, epoch:  5.000, value:  6.440 (split:test)
+(Rank 1) runavg_perplexity              - bits:342934300800.000, epoch:  5.000, value:627.888 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |    649 |     1.37914s |  96.4%
+- batch.accumulate               |    649 |     0.01023s |   0.7%
+- batch.backward                 |    649 |     0.79122s |  55.4%
+- batch.evaluate                 |    649 |     0.02899s |   2.0%
+- batch.forward                  |    649 |     0.40947s |  28.7%
+- batch.mom                      |    649 |     0.02318s |   1.6%
+- batch.reduce                   |    649 |     0.05957s |   4.2%
+- batch.reporting.compr_err      |    649 |     0.00019s |   0.0%
+- batch.reporting.lr             |    649 |     0.00018s |   0.0%
+- batch.reporting.memory_norm    |    649 |     0.00003s |   0.0%
+- batch.step                     |    649 |     0.00993s |   0.7%
+- batch.update_runavg            |    649 |     0.01854s |   1.3%
+- batch.wd                       |    649 |     0.00952s |   0.7%
+- epoch_metrics.collect          |      4 |     0.00096s |   0.0%
+- reduce.build_lists             |    649 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |    649 |     0.03905s |   2.7%
+- reduce.mean.pack               |    649 |     0.00613s |   0.4%
+- reduce.mean.unpack             |    649 |     0.00837s |   0.6%
+- reduce.reduce                  |    649 |     0.05668s |   4.0%
+- reduce.zero_mem                |    649 |     0.00278s |   0.2%
+- test.last                      |      4 |     3.90443s |   2.7%
+- test.runavg                    |      4 |     4.08100s |   2.8%
+-----------------------------------------------------------------
+
+(Rank 1) effective_lr                   - epoch:  5.238, value:  0.178 (weight:rnn.bias_ih_l0)
+(Rank 1) grad_norm                      - epoch:  5.238, value:  0.001 (weight:rnn.bias_ih_l0)
+(Rank 1) timer                          - epoch:  5.369, value:  0.000 (event:batch.reporting.lr)
+(Rank 1) timer                          - epoch:  5.500, value:  0.044 (event:batch.reduce)
+(Rank 1) effective_lr                   - epoch:  5.823, value:  0.015 (weight:decoder.bias)
+(Rank 1) grad_norm                      - epoch:  5.823, value:  0.016 (weight:decoder.bias)
+(Rank 1) effective_lr                   - epoch:  5.892, value:  0.015 (weight:decoder.bias)
+(Rank 1) grad_norm                      - epoch:  5.892, value:  0.017 (weight:decoder.bias)
+(Rank 1) rel_compression_error          - epoch:  5.900, value:  0.000 (weight:rnn.bias_ih_l2)
+(Rank 1) cross_entropy                  - bits:411521160960.000, epoch:  6.000, value:  6.442 (split:train)
+(Rank 1) last_cross_entropy             - bits:411521160960.000, epoch:  6.000, value:  6.442 (split:train)
+(Rank 1) perplexity                     - bits:411521160960.000, epoch:  6.000, value:628.549 (split:train)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |    519 |     1.37814s |  96.6%
+- batch.accumulate               |    519 |     0.01062s |   0.7%
+- batch.backward                 |    519 |     0.78806s |  55.3%
+- batch.evaluate                 |    519 |     0.02892s |   2.0%
+- batch.forward                  |    519 |     0.40747s |  28.6%
+- batch.mom                      |    519 |     0.02308s |   1.6%
+- batch.reduce                   |    519 |     0.06287s |   4.4%
+- batch.reporting.compr_err      |    519 |     0.00021s |   0.0%
+- batch.reporting.lr             |    519 |     0.00015s |   0.0%
+- batch.reporting.memory_norm    |    519 |     0.00004s |   0.0%
+- batch.step                     |    519 |     0.01005s |   0.7%
+- batch.update_runavg            |    519 |     0.01847s |   1.3%
+- batch.wd                       |    519 |     0.00971s |   0.7%
+- epoch_metrics.collect          |      3 |     0.00111s |   0.0%
+- reduce.build_lists             |    519 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |    519 |     0.04172s |   2.9%
+- reduce.mean.pack               |    519 |     0.00650s |   0.5%
+- reduce.mean.unpack             |    519 |     0.00835s |   0.6%
+- reduce.reduce                  |    519 |     0.05992s |   4.2%
+- reduce.zero_mem                |    519 |     0.00284s |   0.2%
+- test.last                      |      3 |     3.74513s |   2.9%
+- test.runavg                    |      3 |     3.98327s |   3.1%
+-----------------------------------------------------------------
+
+(Rank 0) timer                          - epoch:  5.000, value:  0.907 (event:batch.backward)
+(Rank 0) timer                          - epoch:  4.138, value:  1.446 (event:batch)
+(Rank 0) timer                          - epoch:  5.000, value:  0.037 (event:batch.evaluate)
+(Rank 0) timer                          - epoch:  4.300, value:  0.010 (event:batch.wd)
+(Rank 0) rel_compression_error          - epoch:  4.315, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 0) rel_compression_error          - epoch:  4.362, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 0) rel_compression_error          - epoch:  4.677, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 0) memory_norm                    - epoch:  4.938, value:  0.000 (weight:encoder.weight)
+(Rank 0) memory_norm                    - epoch:  4.938, value:  0.000 (weight:rnn.weight_ih_l0)
+(Rank 0) memory_norm                    - epoch:  4.938, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 0) memory_norm                    - epoch:  4.938, value:  0.000 (weight:rnn.bias_ih_l0)
+(Rank 0) memory_norm                    - epoch:  4.938, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 0) memory_norm                    - epoch:  4.938, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 0) memory_norm                    - epoch:  4.938, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 0) memory_norm                    - epoch:  4.938, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 0) memory_norm                    - epoch:  4.938, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 0) memory_norm                    - epoch:  4.938, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 0) memory_norm                    - epoch:  4.938, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 0) memory_norm                    - epoch:  4.938, value:  0.000 (weight:rnn.bias_ih_l2)
+(Rank 0) memory_norm                    - epoch:  4.938, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 0) memory_norm                    - epoch:  4.938, value:  0.000 (weight:decoder.bias)
+(Rank 0) compression_error              - epoch:  4.938, value:  0.000 ()
+(Rank 0) cross_entropy                  - bits:342934300800.000, epoch:  5.000, value:  6.449 (split:train)
+(Rank 0) last_cross_entropy             - bits:342934300800.000, epoch:  5.000, value:  6.449 (split:train)
+(Rank 0) perplexity                     - bits:342934300800.000, epoch:  5.000, value:632.813 (split:train)
+(Rank 0) last_perplexity                - bits:342934300800.000, epoch:  5.000, value:632.813 (split:train)
+(Rank 0) last_cross_entropy             - bits:342934300800.000, epoch:  5.000, value:  6.411 (split:test)
+(Rank 0) last_perplexity                - bits:342934300800.000, epoch:  5.000, value:609.727 (split:test)
+(Rank 0) timer                          - epoch:  4.000, value:  4.382 (event:test.last)
+(Rank 0) runavg_cross_entropy           - bits:342934300800.000, epoch:  5.000, value:  6.440 (split:test)
+(Rank 0) runavg_perplexity              - bits:342934300800.000, epoch:  5.000, value:627.888 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |    649 |     1.37923s |  96.5%
+- batch.accumulate               |    649 |     0.01054s |   0.7%
+- batch.backward                 |    649 |     0.78958s |  55.2%
+- batch.evaluate                 |    649 |     0.02905s |   2.0%
+- batch.forward                  |    649 |     0.40744s |  28.5%
+- batch.mom                      |    649 |     0.02305s |   1.6%
+- batch.reduce                   |    649 |     0.06250s |   4.4%
+- batch.reporting.compr_err      |    649 |     0.00021s |   0.0%
+- batch.reporting.lr             |    649 |     0.00015s |   0.0%
+- batch.reporting.memory_norm    |    649 |     0.00006s |   0.0%
+- batch.step                     |    649 |     0.01002s |   0.7%
+- batch.update_runavg            |    649 |     0.01836s |   1.3%
+- batch.wd                       |    649 |     0.00969s |   0.7%
+- epoch_metrics.collect          |      4 |     0.00161s |   0.0%
+- reduce.build_lists             |    649 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |    649 |     0.04142s |   2.9%
+- reduce.mean.pack               |    649 |     0.00645s |   0.5%
+- reduce.mean.unpack             |    649 |     0.00834s |   0.6%
+- reduce.reduce                  |    649 |     0.05958s |   4.2%
+- reduce.zero_mem                |    649 |     0.00281s |   0.2%
+- test.last                      |      4 |     3.90440s |   2.7%
+- test.runavg                    |      4 |     4.08111s |   2.8%
+-----------------------------------------------------------------
+
+(Rank 0) effective_lr                   - epoch:  5.131, value:  0.114 (weight:rnn.bias_ih_l1)
+(Rank 0) grad_norm                      - epoch:  5.131, value:  0.002 (weight:rnn.bias_ih_l1)
+(Rank 0) rel_compression_error          - epoch:  5.308, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 0) rel_compression_error          - epoch:  5.400, value:  0.000 (weight:rnn.bias_ih_l2)
+(Rank 0) timer                          - epoch: -1.000, value:  0.094 (event:reduce.reduce)
+(Rank 0) timer                          - epoch: -1.000, value:  0.049 (event:reduce.reduce)
+(Rank 0) effective_lr                   - epoch:  5.754, value:  0.183 (weight:rnn.bias_ih_l0)
+(Rank 0) grad_norm                      - epoch:  5.754, value:  0.001 (weight:rnn.bias_ih_l0)
+(Rank 0) timer                          - epoch:  5.777, value:  0.010 (event:batch.step)
+(Rank 0) cross_entropy                  - bits:411521160960.000, epoch:  6.000, value:  6.442 (split:train)
+(Rank 0) last_cross_entropy             - bits:411521160960.000, epoch:  6.000, value:  6.442 (split:train)
+(Rank 0) perplexity                     - bits:411521160960.000, epoch:  6.000, value:628.549 (split:train)
+(Rank 0) last_perplexity                - bits:411521160960.000, epoch:  6.000, value:628.549 (split:train)
+(Rank 0) timer                          - epoch:  6.000, value:  0.002 (event:epoch_metrics.collect)
+(Rank 0) last_cross_entropy             - bits:411521160960.000, epoch:  6.000, value:  6.409 (split:test)
+(Rank 0) last_perplexity                - bits:411521160960.000, epoch:  6.000, value:608.702 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:411521160960.000, epoch:  6.000, value:  6.434 (split:test)
+(Rank 0) runavg_perplexity              - bits:411521160960.000, epoch:  6.000, value:624.226 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |    779 |     1.38158s |  96.3%
+- batch.accumulate               |    779 |     0.01048s |   0.7%
+- batch.backward                 |    779 |     0.79155s |  55.2%
+- batch.evaluate                 |    779 |     0.02916s |   2.0%
+- batch.forward                  |    779 |     0.40787s |  28.4%
+- batch.mom                      |    779 |     0.02305s |   1.6%
+- batch.reduce                   |    779 |     0.06235s |   4.3%
+- batch.reporting.compr_err      |    779 |     0.00022s |   0.0%
+- batch.reporting.lr             |    779 |     0.00015s |   0.0%
+- batch.reporting.memory_norm    |    779 |     0.00005s |   0.0%
+- batch.step                     |    779 |     0.01001s |   0.7%
+- batch.update_runavg            |    779 |     0.01837s |   1.3%
+- batch.wd                       |    779 |     0.00969s |   0.7%
+- epoch_metrics.collect          |      5 |     0.00164s |   0.0%
+- reduce.build_lists             |    779 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |    779 |     0.04132s |   2.9%
+- reduce.mean.pack               |    779 |     0.00641s |   0.4%
+- reduce.mean.unpack             |    779 |     0.00834s |   0.6%
+- reduce.reduce                  |    779 |     0.05944s |   4.1%
+- reduce.zero_mem                |    779 |     0.00280s |   0.2%
+- test.last                      |      5 |     4.00873s |   2.6%
+- test.runavg                    |      5 |     4.17689s |   2.7%
+-----------------------------------------------------------------
+
+(Rank 0) rel_compression_error          - epoch:  6.146, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 0) rel_compression_error          - epoch:  6.254, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 0) rel_compression_error          - epoch:  6.362, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 0) effective_lr                   - epoch:  6.831, value:  0.123 (weight:rnn.bias_hh_l1)
+(Rank 0) grad_norm                      - epoch:  6.831, value:  0.002 (weight:rnn.bias_hh_l1)
+(Rank 0) rel_compression_error          - epoch:  6.985, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 0) cross_entropy                  - bits:480108021120.000, epoch:  7.000, value:  6.438 (split:train)
+(Rank 0) last_cross_entropy             - bits:480108021120.000, epoch:  7.000, value:  6.438 (split:train)
+(Rank 0) perplexity                     - bits:480108021120.000, epoch:  7.000, value:625.801 (split:train)
+(Rank 0) last_perplexity                - bits:480108021120.000, epoch:  7.000, value:625.801 (split:train)
+(Rank 0) last_cross_entropy             - bits:480108021120.000, epoch:  7.000, value:  6.408 (split:test)
+(Rank 0) last_perplexity                - bits:480108021120.000, epoch:  7.000, value:608.195 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:480108021120.000, epoch:  7.000, value:  6.431 (split:test)
+(Rank 0) runavg_perplexity              - bits:480108021120.000, epoch:  7.000, value:621.855 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |    909 |     1.38286s |  96.1%
+- batch.accumulate               |    909 |     0.01043s |   0.7%
+- batch.backward                 |    909 |     0.79256s |  55.1%
+- batch.evaluate                 |    909 |     0.02931s |   2.0%
+- batch.forward                  |    909 |     0.40821s |  28.4%
+- batch.mom                      |    909 |     0.02303s |   1.6%
+- batch.reduce                   |    909 |     0.06233s |   4.3%
+- batch.reporting.compr_err      |    909 |     0.00022s |   0.0%
+- batch.reporting.lr             |    909 |     0.00015s |   0.0%
+- batch.reporting.memory_norm    |    909 |     0.00004s |   0.0%
+- batch.step                     |    909 |     0.01000s |   0.7%
+- batch.update_runavg            |    909 |     0.01836s |   1.3%
+- batch.wd                       |    909 |     0.00966s |   0.7%
+- epoch_metrics.collect          |      6 |     0.00152s |   0.0%
+- reduce.build_lists             |    909 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |    909 |     0.04133s |   2.9%
+- reduce.mean.pack               |    909 |     0.00642s |   0.4%
+- reduce.mean.unpack             |    909 |     0.00834s |   0.6%
+- reduce.reduce                  |    909 |     0.05942s |   4.1%
+- reduce.zero_mem                |    909 |     0.00279s |   0.2%
+- test.last                      |      6 |     4.07081s |   2.6%
+- test.runavg                    |      6 |     4.22995s |   2.7%
+-----------------------------------------------------------------
+
+(Rank 0) effective_lr                   - epoch:  7.062, value:  0.000 (weight:encoder.weight)
+(Rank 0) grad_norm                      - epoch:  7.062, value:  0.142 (weight:encoder.weight)
+(Rank 0) timer                          - epoch:  7.562, value:  0.019 (event:batch.update_runavg)
+(Rank 0) effective_lr                   - epoch:  7.638, value:  0.000 (weight:encoder.weight)
+(Rank 0) grad_norm                      - epoch:  7.638, value:  0.164 (weight:encoder.weight)
+(Rank 0) effective_lr                   - epoch:  7.715, value:  0.013 (weight:decoder.bias)
+(Rank 0) grad_norm                      - epoch:  7.715, value:  0.017 (weight:decoder.bias)
+(Rank 0) timer                          - epoch: -1.000, value:  0.005 (event:reduce.mean.pack)
+(Rank 0) effective_lr                   - epoch:  7.754, value:  0.013 (weight:decoder.bias)
+(Rank 0) grad_norm                      - epoch:  7.754, value:  0.018 (weight:decoder.bias)
+(Rank 0) timer                          - epoch:  7.831, value:  0.022 (event:batch.mom)
+(Rank 0) timer                          - epoch: -1.000, value:  0.005 (event:reduce.mean.pack)
+(Rank 0) rel_compression_error          - epoch:  7.869, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 0) memory_norm                    - epoch:  7.931, value:  0.000 (weight:encoder.weight)
+(Rank 0) memory_norm                    - epoch:  7.931, value:  0.000 (weight:rnn.weight_ih_l0)
+(Rank 0) memory_norm                    - epoch:  7.931, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 0) memory_norm                    - epoch:  7.931, value:  0.000 (weight:rnn.bias_ih_l0)
+(Rank 0) memory_norm                    - epoch:  7.931, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 0) memory_norm                    - epoch:  7.931, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 0) memory_norm                    - epoch:  7.931, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 0) memory_norm                    - epoch:  7.931, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 0) memory_norm                    - epoch:  7.931, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 0) memory_norm                    - epoch:  7.931, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 0) memory_norm                    - epoch:  7.931, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 0) memory_norm                    - epoch:  7.931, value:  0.000 (weight:rnn.bias_ih_l2)
+(Rank 0) memory_norm                    - epoch:  7.931, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 0) memory_norm                    - epoch:  7.931, value:  0.000 (weight:decoder.bias)
+(Rank 0) compression_error              - epoch:  7.931, value:  0.000 ()
+(Rank 0) cross_entropy                  - bits:548694881280.000, epoch:  8.000, value:  6.434 (split:train)
+(Rank 0) last_cross_entropy             - bits:548694881280.000, epoch:  8.000, value:  6.434 (split:train)
+(Rank 0) perplexity                     - bits:548694881280.000, epoch:  8.000, value:623.420 (split:train)
+(Rank 0) last_perplexity                - bits:548694881280.000, epoch:  8.000, value:623.420 (split:train)
+(Rank 0) last_cross_entropy             - bits:548694881280.000, epoch:  8.000, value:  6.408 (split:test)
+(Rank 0) last_perplexity                - bits:548694881280.000, epoch:  8.000, value:607.934 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:548694881280.000, epoch:  8.000, value:  6.429 (split:test)
+(Rank 1) last_perplexity                - bits:411521160960.000, epoch:  6.000, value:628.549 (split:train)
+(Rank 1) timer                          - epoch:  6.000, value:  0.001 (event:epoch_metrics.collect)
+(Rank 1) last_cross_entropy             - bits:411521160960.000, epoch:  6.000, value:  6.409 (split:test)
+(Rank 1) last_perplexity                - bits:411521160960.000, epoch:  6.000, value:608.702 (split:test)
+(Rank 1) timer                          - epoch:  5.000, value:  4.426 (event:test.last)
+(Rank 1) runavg_cross_entropy           - bits:411521160960.000, epoch:  6.000, value:  6.434 (split:test)
+(Rank 1) runavg_perplexity              - bits:411521160960.000, epoch:  6.000, value:624.226 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |    779 |     1.38149s |  96.3%
+- batch.accumulate               |    779 |     0.01024s |   0.7%
+- batch.backward                 |    779 |     0.79259s |  55.2%
+- batch.evaluate                 |    779 |     0.02906s |   2.0%
+- batch.forward                  |    779 |     0.41013s |  28.6%
+- batch.mom                      |    779 |     0.02318s |   1.6%
+- batch.reduce                   |    779 |     0.05971s |   4.2%
+- batch.reporting.compr_err      |    779 |     0.00019s |   0.0%
+- batch.reporting.lr             |    779 |     0.00017s |   0.0%
+- batch.reporting.memory_norm    |    779 |     0.00003s |   0.0%
+- batch.step                     |    779 |     0.00995s |   0.7%
+- batch.update_runavg            |    779 |     0.01853s |   1.3%
+- batch.wd                       |    779 |     0.00951s |   0.7%
+- epoch_metrics.collect          |      5 |     0.00105s |   0.0%
+- reduce.build_lists             |    779 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |    779 |     0.03913s |   2.7%
+- reduce.mean.pack               |    779 |     0.00616s |   0.4%
+- reduce.mean.unpack             |    779 |     0.00836s |   0.6%
+- reduce.reduce                  |    779 |     0.05681s |   4.0%
+- reduce.zero_mem                |    779 |     0.00279s |   0.2%
+- test.last                      |      5 |     4.00878s |   2.6%
+- test.runavg                    |      5 |     4.17676s |   2.7%
+-----------------------------------------------------------------
+
+(Rank 1) timer                          - epoch: -1.000, value:  0.009 (event:reduce.mean.unpack)
+(Rank 1) effective_lr                   - epoch:  6.546, value:  0.121 (weight:rnn.bias_hh_l1)
+(Rank 1) grad_norm                      - epoch:  6.546, value:  0.002 (weight:rnn.bias_hh_l1)
+(Rank 1) timer                          - epoch:  6.554, value:  0.009 (event:batch.step)
+(Rank 1) rel_compression_error          - epoch:  6.731, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 1) timer                          - epoch: -1.000, value:  0.002 (event:reduce.zero_mem)
+(Rank 1) cross_entropy                  - bits:480108021120.000, epoch:  7.000, value:  6.438 (split:train)
+(Rank 1) last_cross_entropy             - bits:480108021120.000, epoch:  7.000, value:  6.438 (split:train)
+(Rank 1) perplexity                     - bits:480108021120.000, epoch:  7.000, value:625.801 (split:train)
+(Rank 1) last_perplexity                - bits:480108021120.000, epoch:  7.000, value:625.801 (split:train)
+(Rank 1) timer                          - epoch:  7.000, value:  0.002 (event:epoch_metrics.collect)
+(Rank 1) last_cross_entropy             - bits:480108021120.000, epoch:  7.000, value:  6.408 (split:test)
+(Rank 1) last_perplexity                - bits:480108021120.000, epoch:  7.000, value:608.195 (split:test)
+(Rank 1) runavg_cross_entropy           - bits:480108021120.000, epoch:  7.000, value:  6.431 (split:test)
+(Rank 1) runavg_perplexity              - bits:480108021120.000, epoch:  7.000, value:621.855 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |    909 |     1.38277s |  96.1%
+- batch.accumulate               |    909 |     0.01030s |   0.7%
+- batch.backward                 |    909 |     0.79301s |  55.1%
+- batch.evaluate                 |    909 |     0.02900s |   2.0%
+- batch.forward                  |    909 |     0.41089s |  28.6%
+- batch.mom                      |    909 |     0.02313s |   1.6%
+- batch.reduce                   |    909 |     0.05977s |   4.2%
+- batch.reporting.compr_err      |    909 |     0.00019s |   0.0%
+- batch.reporting.lr             |    909 |     0.00017s |   0.0%
+- batch.reporting.memory_norm    |    909 |     0.00002s |   0.0%
+- batch.step                     |    909 |     0.00994s |   0.7%
+- batch.update_runavg            |    909 |     0.01850s |   1.3%
+- batch.wd                       |    909 |     0.00953s |   0.7%
+- epoch_metrics.collect          |      6 |     0.00118s |   0.0%
+- reduce.build_lists             |    909 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |    909 |     0.03918s |   2.7%
+- reduce.mean.pack               |    909 |     0.00614s |   0.4%
+- reduce.mean.unpack             |    909 |     0.00835s |   0.6%
+- reduce.reduce                  |    909 |     0.05688s |   4.0%
+- reduce.zero_mem                |    909 |     0.00278s |   0.2%
+- test.last                      |      6 |     4.07088s |   2.6%
+- test.runavg                    |      6 |     4.22981s |   2.7%
+-----------------------------------------------------------------
+
+(Rank 1) timer                          - epoch:  7.277, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 1) effective_lr                   - epoch:  7.300, value:  0.000 (weight:rnn.weight_ih_l0)
+(Rank 1) grad_norm                      - epoch:  7.300, value:  0.001 (weight:rnn.weight_ih_l0)
+(Rank 1) effective_lr                   - epoch:  7.515, value:  0.127 (weight:rnn.bias_ih_l1)
+(Rank 1) grad_norm                      - epoch:  7.515, value:  0.002 (weight:rnn.bias_ih_l1)
+(Rank 1) timer                          - epoch:  7.523, value:  1.297 (event:batch)
+(Rank 1) effective_lr                   - epoch:  7.569, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 1) grad_norm                      - epoch:  7.569, value:  0.010 (weight:rnn.weight_ih_l2)
+(Rank 1) effective_lr                   - epoch:  7.708, value:  0.036 (weight:rnn.bias_ih_l2)
+(Rank 1) grad_norm                      - epoch:  7.708, value:  0.007 (weight:rnn.bias_ih_l2)
+(Rank 1) timer                          - epoch:  8.000, value:  0.039 (event:batch.evaluate)
+(Rank 1) timer                          - epoch:  7.792, value:  0.010 (event:batch.wd)
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 1) effective_lr                   - epoch:  7.954, value:  0.207 (weight:rnn.bias_ih_l0)
+(Rank 1) grad_norm                      - epoch:  7.954, value:  0.001 (weight:rnn.bias_ih_l0)
+(Rank 1) cross_entropy                  - bits:548694881280.000, epoch:  8.000, value:  6.434 (split:train)
+(Rank 1) last_cross_entropy             - bits:548694881280.000, epoch:  8.000, value:  6.434 (split:train)
+(Rank 1) perplexity                     - bits:548694881280.000, epoch:  8.000, value:623.420 (split:train)
+(Rank 1) last_perplexity                - bits:548694881280.000, epoch:  8.000, value:623.420 (split:train)
+(Rank 1) timer                          - epoch:  8.000, value:  0.000 (event:epoch_metrics.collect)
+(Rank 1) last_cross_entropy             - bits:548694881280.000, epoch:  8.000, value:  6.408 (split:test)
+(Rank 1) last_perplexity                - bits:548694881280.000, epoch:  8.000, value:607.934 (split:test)
+(Rank 1) runavg_cross_entropy           - bits:548694881280.000, epoch:  8.000, value:  6.429 (split:test)
+(Rank 1) runavg_perplexity              - bits:548694881280.000, epoch:  8.000, value:621.135 (split:test)
+(Rank 0) runavg_perplexity              - bits:548694881280.000, epoch:  8.000, value:621.135 (split:test)
+(Rank 0) timer                          - epoch:  7.000, value:  3.835 (event:test.runavg)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1039 |     1.38430s |  96.0%
+- batch.accumulate               |   1039 |     0.01035s |   0.7%
+- batch.backward                 |   1039 |     0.79344s |  55.0%
+- batch.evaluate                 |   1039 |     0.02927s |   2.0%
+- batch.forward                  |   1039 |     0.40880s |  28.4%
+- batch.mom                      |   1039 |     0.02306s |   1.6%
+- batch.reduce                   |   1039 |     0.06238s |   4.3%
+- batch.reporting.compr_err      |   1039 |     0.00021s |   0.0%
+- batch.reporting.lr             |   1039 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   1039 |     0.00006s |   0.0%
+- batch.step                     |   1039 |     0.01000s |   0.7%
+- batch.update_runavg            |   1039 |     0.01836s |   1.3%
+- batch.wd                       |   1039 |     0.00965s |   0.7%
+- epoch_metrics.collect          |      7 |     0.00158s |   0.0%
+- reduce.build_lists             |   1039 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1039 |     0.04144s |   2.9%
+- reduce.mean.pack               |   1039 |     0.00638s |   0.4%
+- reduce.mean.unpack             |   1039 |     0.00835s |   0.6%
+- reduce.reduce                  |   1039 |     0.05950s |   4.1%
+- reduce.zero_mem                |   1039 |     0.00277s |   0.2%
+- test.last                      |      7 |     4.01141s |   2.5%
+- test.runavg                    |      7 |     4.17356s |   2.6%
+-----------------------------------------------------------------
+
+(Rank 0) effective_lr                   - epoch:  8.138, value:  0.206 (weight:rnn.bias_hh_l0)
+(Rank 0) grad_norm                      - epoch:  8.138, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 0) timer                          - epoch:  8.138, value:  0.010 (event:batch.step)
+(Rank 0) timer                          - epoch:  8.254, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 0) rel_compression_error          - epoch:  8.269, value:  0.000 (weight:rnn.bias_ih_l2)
+(Rank 0) timer                          - epoch: -1.000, value:  0.065 (event:reduce.reduce)
+(Rank 0) rel_compression_error          - epoch:  8.431, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 0) cross_entropy                  - bits:617281741440.000, epoch:  9.000, value:  6.432 (split:train)
+(Rank 0) last_cross_entropy             - bits:617281741440.000, epoch:  9.000, value:  6.432 (split:train)
+(Rank 0) perplexity                     - bits:617281741440.000, epoch:  9.000, value:622.240 (split:train)
+(Rank 0) last_perplexity                - bits:617281741440.000, epoch:  9.000, value:622.240 (split:train)
+(Rank 0) last_cross_entropy             - bits:617281741440.000, epoch:  9.000, value:  6.407 (split:test)
+(Rank 0) last_perplexity                - bits:617281741440.000, epoch:  9.000, value:607.643 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:617281741440.000, epoch:  9.000, value:  6.427 (split:test)
+(Rank 0) runavg_perplexity              - bits:617281741440.000, epoch:  9.000, value:619.360 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1169 |     1.38763s |  96.0%
+- batch.accumulate               |   1169 |     0.01042s |   0.7%
+- batch.backward                 |   1169 |     0.79533s |  55.0%
+- batch.evaluate                 |   1169 |     0.02941s |   2.0%
+- batch.forward                  |   1169 |     0.40987s |  28.4%
+- batch.mom                      |   1169 |     0.02308s |   1.6%
+- batch.reduce                   |   1169 |     0.06238s |   4.3%
+- batch.reporting.compr_err      |   1169 |     0.00021s |   0.0%
+- batch.reporting.lr             |   1169 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   1169 |     0.00005s |   0.0%
+- batch.step                     |   1169 |     0.01001s |   0.7%
+- batch.update_runavg            |   1169 |     0.01839s |   1.3%
+- batch.wd                       |   1169 |     0.00964s |   0.7%
+- epoch_metrics.collect          |      8 |     0.00150s |   0.0%
+- reduce.build_lists             |   1169 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1169 |     0.04142s |   2.9%
+- reduce.mean.pack               |   1169 |     0.00636s |   0.4%
+- reduce.mean.unpack             |   1169 |     0.00836s |   0.6%
+- reduce.reduce                  |   1169 |     0.05950s |   4.1%
+- reduce.zero_mem                |   1169 |     0.00277s |   0.2%
+- test.last                      |      8 |     3.98156s |   2.4%
+- test.runavg                    |      8 |     4.12777s |   2.5%
+-----------------------------------------------------------------
+
+(Rank 0) rel_compression_error          - epoch:  9.023, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 0) rel_compression_error          - epoch:  9.292, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 0) effective_lr                   - epoch:  9.362, value:  0.000 (weight:rnn.weight_ih_l0)
+(Rank 0) grad_norm                      - epoch:  9.362, value:  0.001 (weight:rnn.weight_ih_l0)
+(Rank 0) rel_compression_error          - epoch:  9.585, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 0) effective_lr                   - epoch:  9.985, value:  0.142 (weight:rnn.bias_ih_l1)
+(Rank 0) grad_norm                      - epoch:  9.985, value:  0.002 (weight:rnn.bias_ih_l1)
+(Rank 0) cross_entropy                  - bits:685868601600.000, epoch: 10.000, value:  6.429 (split:train)
+(Rank 0) last_cross_entropy             - bits:685868601600.000, epoch: 10.000, value:  6.429 (split:train)
+(Rank 0) perplexity                     - bits:685868601600.000, epoch: 10.000, value:620.464 (split:train)
+(Rank 0) last_perplexity                - bits:685868601600.000, epoch: 10.000, value:620.464 (split:train)
+(Rank 0) last_cross_entropy             - bits:685868601600.000, epoch: 10.000, value:  6.407 (split:test)
+(Rank 0) last_perplexity                - bits:685868601600.000, epoch: 10.000, value:607.500 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:685868601600.000, epoch: 10.000, value:  6.426 (split:test)
+(Rank 0) runavg_perplexity              - bits:685868601600.000, epoch: 10.000, value:618.812 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1039 |     1.38420s |  96.0%
+- batch.accumulate               |   1039 |     0.01031s |   0.7%
+- batch.backward                 |   1039 |     0.79396s |  55.1%
+- batch.evaluate                 |   1039 |     0.02901s |   2.0%
+- batch.forward                  |   1039 |     0.41100s |  28.5%
+- batch.mom                      |   1039 |     0.02311s |   1.6%
+- batch.reduce                   |   1039 |     0.06010s |   4.2%
+- batch.reporting.compr_err      |   1039 |     0.00019s |   0.0%
+- batch.reporting.lr             |   1039 |     0.00017s |   0.0%
+- batch.reporting.memory_norm    |   1039 |     0.00002s |   0.0%
+- batch.step                     |   1039 |     0.00994s |   0.7%
+- batch.update_runavg            |   1039 |     0.01849s |   1.3%
+- batch.wd                       |   1039 |     0.00955s |   0.7%
+- epoch_metrics.collect          |      7 |     0.00106s |   0.0%
+- reduce.build_lists             |   1039 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1039 |     0.03943s |   2.7%
+- reduce.mean.pack               |   1039 |     0.00618s |   0.4%
+- reduce.mean.unpack             |   1039 |     0.00835s |   0.6%
+- reduce.reduce                  |   1039 |     0.05720s |   4.0%
+- reduce.zero_mem                |   1039 |     0.00280s |   0.2%
+- test.last                      |      7 |     4.01147s |   2.5%
+- test.runavg                    |      7 |     4.17345s |   2.6%
+-----------------------------------------------------------------
+
+(Rank 1) cross_entropy                  - bits:617281741440.000, epoch:  9.000, value:  6.432 (split:train)
+(Rank 1) last_cross_entropy             - bits:617281741440.000, epoch:  9.000, value:  6.432 (split:train)
+(Rank 1) perplexity                     - bits:617281741440.000, epoch:  9.000, value:622.240 (split:train)
+(Rank 1) last_perplexity                - bits:617281741440.000, epoch:  9.000, value:622.240 (split:train)
+(Rank 1) last_cross_entropy             - bits:617281741440.000, epoch:  9.000, value:  6.407 (split:test)
+(Rank 1) last_perplexity                - bits:617281741440.000, epoch:  9.000, value:607.643 (split:test)
+(Rank 1) timer                          - epoch:  8.000, value:  3.773 (event:test.last)
+(Rank 1) runavg_cross_entropy           - bits:617281741440.000, epoch:  9.000, value:  6.427 (split:test)
+(Rank 1) runavg_perplexity              - bits:617281741440.000, epoch:  9.000, value:619.360 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1169 |     1.38753s |  96.0%
+- batch.accumulate               |   1169 |     0.01034s |   0.7%
+- batch.backward                 |   1169 |     0.79608s |  55.1%
+- batch.evaluate                 |   1169 |     0.02918s |   2.0%
+- batch.forward                  |   1169 |     0.41171s |  28.5%
+- batch.mom                      |   1169 |     0.02313s |   1.6%
+- batch.reduce                   |   1169 |     0.06026s |   4.2%
+- batch.reporting.compr_err      |   1169 |     0.00018s |   0.0%
+- batch.reporting.lr             |   1169 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   1169 |     0.00002s |   0.0%
+- batch.step                     |   1169 |     0.00994s |   0.7%
+- batch.update_runavg            |   1169 |     0.01851s |   1.3%
+- batch.wd                       |   1169 |     0.00955s |   0.7%
+- epoch_metrics.collect          |      8 |     0.00108s |   0.0%
+- reduce.build_lists             |   1169 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1169 |     0.03948s |   2.7%
+- reduce.mean.pack               |   1169 |     0.00623s |   0.4%
+- reduce.mean.unpack             |   1169 |     0.00836s |   0.6%
+- reduce.reduce                  |   1169 |     0.05734s |   4.0%
+- reduce.zero_mem                |   1169 |     0.00281s |   0.2%
+- test.last                      |      8 |     3.98161s |   2.4%
+- test.runavg                    |      8 |     4.12767s |   2.5%
+-----------------------------------------------------------------
+
+(Rank 1) cross_entropy                  - bits:685868601600.000, epoch: 10.000, value:  6.429 (split:train)
+(Rank 1) last_cross_entropy             - bits:685868601600.000, epoch: 10.000, value:  6.429 (split:train)
+(Rank 1) perplexity                     - bits:685868601600.000, epoch: 10.000, value:620.464 (split:train)
+(Rank 1) last_perplexity                - bits:685868601600.000, epoch: 10.000, value:620.464 (split:train)
+(Rank 1) timer                          - epoch: 10.000, value:  0.001 (event:epoch_metrics.collect)
+(Rank 1) last_cross_entropy             - bits:685868601600.000, epoch: 10.000, value:  6.407 (split:test)
+(Rank 1) last_perplexity                - bits:685868601600.000, epoch: 10.000, value:607.500 (split:test)
+(Rank 1) runavg_cross_entropy           - bits:685868601600.000, epoch: 10.000, value:  6.426 (split:test)
+(Rank 1) runavg_perplexity              - bits:685868601600.000, epoch: 10.000, value:618.812 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1299 |     1.39560s |  96.0%
+- batch.accumulate               |   1299 |     0.01039s |   0.7%
+- batch.backward                 |   1299 |     0.80093s |  55.1%
+- batch.evaluate                 |   1299 |     0.02936s |   2.0%
+- batch.forward                  |   1299 |     0.41419s |  28.5%
+- batch.mom                      |   1299 |     0.02322s |   1.6%
+- batch.reduce                   |   1299 |     0.06044s |   4.2%
+- batch.reporting.compr_err      |   1299 |     0.00018s |   0.0%
+- batch.reporting.lr             |   1299 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   1299 |     0.00002s |   0.0%
+- batch.step                     |   1299 |     0.00995s |   0.7%
+- batch.update_runavg            |   1299 |     0.01858s |   1.3%
+- batch.wd                       |   1299 |     0.00956s |   0.7%
+- epoch_metrics.collect          |      9 |     0.00105s |   0.0%
+- reduce.build_lists             |   1299 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1299 |     0.03952s |   2.7%
+- reduce.mean.pack               |   1299 |     0.00629s |   0.4%
+- reduce.mean.unpack             |   1299 |     0.00837s |   0.6%
+- reduce.reduce                  |   1299 |     0.05750s |   4.0%
+- reduce.zero_mem                |   1299 |     0.00283s |   0.2%
+- test.last                      |      9 |     3.95552s |   2.3%
+- test.runavg                    |      9 |     4.11319s |   2.4%
+-----------------------------------------------------------------
+
+(Rank 1) rel_compression_error          - epoch: 10.185, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 1) rel_compression_error          - epoch: 10.585, value:  0.000 (weight:encoder.weight)
+(Rank 1) cross_entropy                  - bits:754455461760.000, epoch: 11.000, value:  6.428 (split:train)
+(Rank 1) last_cross_entropy             - bits:754455461760.000, epoch: 11.000, value:  6.428 (split:train)
+(Rank 1) perplexity                     - bits:754455461760.000, epoch: 11.000, value:619.306 (split:train)
+(Rank 1) last_perplexity                - bits:754455461760.000, epoch: 11.000, value:619.306 (split:train)
+(Rank 1) last_cross_entropy             - bits:754455461760.000, epoch: 11.000, value:  6.406 (split:test)
+(Rank 1) last_perplexity                - bits:754455461760.000, epoch: 11.000, value:606.741 (split:test)
+(Rank 1) runavg_cross_entropy           - bits:754455461760.000, epoch: 11.000, value:  6.423 (split:test)
+(Rank 1) runavg_perplexity              - bits:754455461760.000, epoch: 11.000, value:617.045 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1299 |     1.39571s |  96.0%
+- batch.accumulate               |   1299 |     0.01047s |   0.7%
+- batch.backward                 |   1299 |     0.80004s |  55.0%
+- batch.evaluate                 |   1299 |     0.02960s |   2.0%
+- batch.forward                  |   1299 |     0.41265s |  28.4%
+- batch.mom                      |   1299 |     0.02314s |   1.6%
+- batch.reduce                   |   1299 |     0.06250s |   4.3%
+- batch.reporting.compr_err      |   1299 |     0.00021s |   0.0%
+- batch.reporting.lr             |   1299 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   1299 |     0.00005s |   0.0%
+- batch.step                     |   1299 |     0.01003s |   0.7%
+- batch.update_runavg            |   1299 |     0.01844s |   1.3%
+- batch.wd                       |   1299 |     0.00965s |   0.7%
+- epoch_metrics.collect          |      9 |     0.00147s |   0.0%
+- reduce.build_lists             |   1299 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1299 |     0.04148s |   2.9%
+- reduce.mean.pack               |   1299 |     0.00640s |   0.4%
+- reduce.mean.unpack             |   1299 |     0.00838s |   0.6%
+- reduce.reduce                  |   1299 |     0.05961s |   4.1%
+- reduce.zero_mem                |   1299 |     0.00278s |   0.2%
+- test.last                      |      9 |     3.95547s |   2.3%
+- test.runavg                    |      9 |     4.11329s |   2.4%
+-----------------------------------------------------------------
+
+(Rank 0) memory_norm                    - epoch: 10.177, value:  0.000 (weight:encoder.weight)
+(Rank 0) memory_norm                    - epoch: 10.177, value:  0.000 (weight:rnn.weight_ih_l0)
+(Rank 0) memory_norm                    - epoch: 10.177, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 0) memory_norm                    - epoch: 10.177, value:  0.000 (weight:rnn.bias_ih_l0)
+(Rank 0) memory_norm                    - epoch: 10.177, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 0) memory_norm                    - epoch: 10.177, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 0) memory_norm                    - epoch: 10.177, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 0) memory_norm                    - epoch: 10.177, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 0) memory_norm                    - epoch: 10.177, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 0) memory_norm                    - epoch: 10.177, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 0) memory_norm                    - epoch: 10.177, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 0) memory_norm                    - epoch: 10.177, value:  0.000 (weight:rnn.bias_ih_l2)
+(Rank 0) memory_norm                    - epoch: 10.177, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 0) memory_norm                    - epoch: 10.177, value:  0.000 (weight:decoder.bias)
+(Rank 0) compression_error              - epoch: 10.177, value:  0.000 ()
+(Rank 0) effective_lr                   - epoch: 10.785, value:  0.241 (weight:rnn.bias_hh_l0)
+(Rank 0) grad_norm                      - epoch: 10.785, value:  0.003 (weight:rnn.bias_hh_l0)
+(Rank 0) rel_compression_error          - epoch: 10.969, value:  0.000 (weight:decoder.bias)
+(Rank 0) cross_entropy                  - bits:754455461760.000, epoch: 11.000, value:  6.428 (split:train)
+(Rank 0) last_cross_entropy             - bits:754455461760.000, epoch: 11.000, value:  6.428 (split:train)
+(Rank 0) perplexity                     - bits:754455461760.000, epoch: 11.000, value:619.306 (split:train)
+(Rank 0) last_perplexity                - bits:754455461760.000, epoch: 11.000, value:619.306 (split:train)
+(Rank 0) last_cross_entropy             - bits:754455461760.000, epoch: 11.000, value:  6.406 (split:test)
+(Rank 0) last_perplexity                - bits:754455461760.000, epoch: 11.000, value:606.741 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:754455461760.000, epoch: 11.000, value:  6.423 (split:test)
+(Rank 0) runavg_perplexity              - bits:754455461760.000, epoch: 11.000, value:617.045 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1429 |     1.39981s |  96.0%
+- batch.accumulate               |   1429 |     0.01054s |   0.7%
+- batch.backward                 |   1429 |     0.80223s |  55.0%
+- batch.evaluate                 |   1429 |     0.02981s |   2.0%
+- batch.forward                  |   1429 |     0.41344s |  28.4%
+- batch.mom                      |   1429 |     0.02325s |   1.6%
+- batch.reduce                   |   1429 |     0.06288s |   4.3%
+- batch.reporting.compr_err      |   1429 |     0.00021s |   0.0%
+- batch.reporting.lr             |   1429 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   1429 |     0.00005s |   0.0%
+- batch.step                     |   1429 |     0.01006s |   0.7%
+- batch.update_runavg            |   1429 |     0.01853s |   1.3%
+- batch.wd                       |   1429 |     0.00967s |   0.7%
+- epoch_metrics.collect          |     10 |     0.00137s |   0.0%
+- reduce.build_lists             |   1429 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1429 |     0.04177s |   2.9%
+- reduce.mean.pack               |   1429 |     0.00641s |   0.4%
+- reduce.mean.unpack             |   1429 |     0.00840s |   0.6%
+- reduce.reduce                  |   1429 |     0.05997s |   4.1%
+- reduce.zero_mem                |   1429 |     0.00280s |   0.2%
+- test.last                      |     10 |     3.98261s |   2.3%
+- test.runavg                    |     10 |     4.09526s |   2.4%
+-----------------------------------------------------------------
+
+(Rank 0) effective_lr                   - epoch: 11.462, value:  0.000 (weight:encoder.weight)
+(Rank 0) grad_norm                      - epoch: 11.462, value:  0.133 (weight:encoder.weight)
+(Rank 0) effective_lr                   - epoch: 11.600, value:  0.254 (weight:rnn.bias_hh_l0)
+(Rank 0) grad_norm                      - epoch: 11.600, value:  0.001 (weight:rnn.bias_hh_l0)
+(Rank 0) timer                          - epoch: -1.000, value:  0.049 (event:reduce.reduce)
+(Rank 0) rel_compression_error          - epoch: 11.738, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 0) effective_lr                   - epoch: 11.892, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 0) grad_norm                      - epoch: 11.892, value:  0.045 (weight:rnn.weight_hh_l2)
+(Rank 0) cross_entropy                  - bits:823042321920.000, epoch: 12.000, value:  6.421 (split:train)
+(Rank 0) last_cross_entropy             - bits:823042321920.000, epoch: 12.000, value:  6.421 (split:train)
+(Rank 0) perplexity                     - bits:823042321920.000, epoch: 12.000, value:615.058 (split:train)
+(Rank 0) last_perplexity                - bits:823042321920.000, epoch: 12.000, value:615.058 (split:train)
+(Rank 0) last_cross_entropy             - bits:823042321920.000, epoch: 12.000, value:  6.387 (split:test)
+(Rank 0) last_perplexity                - bits:823042321920.000, epoch: 12.000, value:595.612 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:823042321920.000, epoch: 12.000, value:  6.404 (split:test)
+(Rank 0) runavg_perplexity              - bits:823042321920.000, epoch: 12.000, value:605.632 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1429 |     1.39971s |  96.0%
+- batch.accumulate               |   1429 |     0.01039s |   0.7%
+- batch.backward                 |   1429 |     0.80336s |  55.1%
+- batch.evaluate                 |   1429 |     0.02957s |   2.0%
+- batch.forward                  |   1429 |     0.41553s |  28.5%
+- batch.mom                      |   1429 |     0.02332s |   1.6%
+- batch.reduce                   |   1429 |     0.06018s |   4.1%
+- batch.reporting.compr_err      |   1429 |     0.00019s |   0.0%
+- batch.reporting.lr             |   1429 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   1429 |     0.00002s |   0.0%
+- batch.step                     |   1429 |     0.01000s |   0.7%
+- batch.update_runavg            |   1429 |     0.01866s |   1.3%
+- batch.wd                       |   1429 |     0.00958s |   0.7%
+- epoch_metrics.collect          |     10 |     0.00101s |   0.0%
+- reduce.build_lists             |   1429 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1429 |     0.03921s |   2.7%
+- reduce.mean.pack               |   1429 |     0.00629s |   0.4%
+- reduce.mean.unpack             |   1429 |     0.00840s |   0.6%
+- reduce.reduce                  |   1429 |     0.05726s |   3.9%
+- reduce.zero_mem                |   1429 |     0.00282s |   0.2%
+- test.last                      |     10 |     3.98264s |   2.3%
+- test.runavg                    |     10 |     4.09518s |   2.4%
+-----------------------------------------------------------------
+
+(Rank 1) timer                          - epoch: -1.000, value:  0.024 (event:reduce.mean.allreduce)
+(Rank 1) timer                          - epoch: 11.508, value:  1.349 (event:batch)
+(Rank 1) timer                          - epoch: 11.654, value:  0.010 (event:batch.wd)
+(Rank 1) timer                          - epoch: 11.708, value:  0.000 (event:batch.reporting.lr)
+(Rank 1) rel_compression_error          - epoch: 11.985, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 1) cross_entropy                  - bits:823042321920.000, epoch: 12.000, value:  6.421 (split:train)
+(Rank 1) last_cross_entropy             - bits:823042321920.000, epoch: 12.000, value:  6.421 (split:train)
+(Rank 1) perplexity                     - bits:823042321920.000, epoch: 12.000, value:615.058 (split:train)
+(Rank 1) last_perplexity                - bits:823042321920.000, epoch: 12.000, value:615.058 (split:train)
+(Rank 1) last_cross_entropy             - bits:823042321920.000, epoch: 12.000, value:  6.387 (split:test)
+(Rank 1) last_perplexity                - bits:823042321920.000, epoch: 12.000, value:595.612 (split:test)
+(Rank 1) runavg_cross_entropy           - bits:823042321920.000, epoch: 12.000, value:  6.404 (split:test)
+(Rank 1) runavg_perplexity              - bits:823042321920.000, epoch: 12.000, value:605.632 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1559 |     1.39997s |  96.0%
+- batch.accumulate               |   1559 |     0.01041s |   0.7%
+- batch.backward                 |   1559 |     0.80346s |  55.1%
+- batch.evaluate                 |   1559 |     0.02967s |   2.0%
+- batch.forward                  |   1559 |     0.41545s |  28.5%
+- batch.mom                      |   1559 |     0.02335s |   1.6%
+- batch.reduce                   |   1559 |     0.06020s |   4.1%
+- batch.reporting.compr_err      |   1559 |     0.00019s |   0.0%
+- batch.reporting.lr             |   1559 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   1559 |     0.00002s |   0.0%
+- batch.step                     |   1559 |     0.01001s |   0.7%
+- batch.update_runavg            |   1559 |     0.01868s |   1.3%
+- batch.wd                       |   1559 |     0.00959s |   0.7%
+- epoch_metrics.collect          |     11 |     0.00112s |   0.0%
+- reduce.build_lists             |   1559 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1559 |     0.03917s |   2.7%
+- reduce.mean.pack               |   1559 |     0.00631s |   0.4%
+- reduce.mean.unpack             |   1559 |     0.00841s |   0.6%
+- reduce.reduce                  |   1559 |     0.05727s |   3.9%
+- reduce.zero_mem                |   1559 |     0.00282s |   0.2%
+- test.last                      |     11 |     4.10074s |   2.3%
+- test.runavg                    |     11 |     4.17785s |   2.4%
+-----------------------------------------------------------------
+
+(Rank 1) timer                          - epoch: -1.000, value:  0.000 (event:batch.reporting.compr_err)
+(Rank 1) effective_lr                   - epoch: 12.700, value:  0.039 (weight:rnn.bias_ih_l2)
+(Rank 1) grad_norm                      - epoch: 12.700, value:  0.008 (weight:rnn.bias_ih_l2)
+(Rank 1) timer                          - epoch: 12.892, value:  0.046 (event:batch.reduce)
+(Rank 1) cross_entropy                  - bits:891629182080.000, epoch: 13.000, value:  6.387 (split:train)
+(Rank 1) last_cross_entropy             - bits:891629182080.000, epoch: 13.000, value:  6.387 (split:train)
+(Rank 1) perplexity                     - bits:891629182080.000, epoch: 13.000, value:594.870 (split:train)
+(Rank 1) last_perplexity                - bits:891629182080.000, epoch: 13.000, value:594.870 (split:train)
+(Rank 1) last_cross_entropy             - bits:891629182080.000, epoch: 13.000, value:  6.347 (split:test)
+(Rank 1) last_perplexity                - bits:891629182080.000, epoch: 13.000, value:572.362 (split:test)
+(Rank 1) runavg_cross_entropy           - bits:891629182080.000, epoch: 13.000, value:  6.365 (split:test)
+(Rank 1) runavg_perplexity              - bits:891629182080.000, epoch: 13.000, value:583.056 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1689 |     1.40137s |  95.9%
+- batch.accumulate               |   1689 |     0.01037s |   0.7%
+- batch.backward                 |   1689 |     0.80408s |  55.0%
+- batch.evaluate                 |   1689 |     0.02981s |   2.0%
+- batch.forward                  |   1689 |     0.41586s |  28.5%
+- batch.mom                      |   1689 |     0.02340s |   1.6%
+- batch.reduce                   |   1689 |     0.06026s |   4.1%
+- batch.reporting.compr_err      |   1689 |     0.00019s |   0.0%
+- batch.reporting.lr             |   1689 |     0.00015s |   0.0%
+- batch.reporting.memory_norm    |   1689 |     0.00002s |   0.0%
+- batch.step                     |   1689 |     0.01001s |   0.7%
+- batch.update_runavg            |   1689 |     0.01873s |   1.3%
+- batch.wd                       |   1689 |     0.00959s |   0.7%
+- epoch_metrics.collect          |     12 |     0.00116s |   0.0%
+- reduce.build_lists             |   1689 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1689 |     0.03921s |   2.7%
+- reduce.mean.pack               |   1689 |     0.00631s |   0.4%
+- reduce.mean.unpack             |   1689 |     0.00843s |   0.6%
+- reduce.reduce                  |   1689 |     0.05734s |   3.9%
+- reduce.zero_mem                |   1689 |     0.00281s |   0.2%
+- test.last                      |     12 |     4.13620s |   2.3%
+- test.runavg                    |     12 |     4.21576s |   2.4%
+-----------------------------------------------------------------
+
+(Rank 1) timer                          - epoch: 13.023, value:  0.000 (event:batch.reporting.memory_norm)
+(Rank 1) effective_lr                   - epoch: 13.038, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 1) grad_norm                      - epoch: 13.038, value:  0.008 (weight:rnn.weight_ih_l1)
+(Rank 1) rel_compression_error          - epoch: 13.138, value:  0.000 (weight:encoder.weight)
+(Rank 1) memory_norm                    - epoch: 13.715, value:  0.000 (weight:encoder.weight)
+(Rank 1) memory_norm                    - epoch: 13.715, value:  0.000 (weight:rnn.weight_ih_l0)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1559 |     1.40007s |  96.0%
+- batch.accumulate               |   1559 |     0.01062s |   0.7%
+- batch.backward                 |   1559 |     0.80244s |  55.0%
+- batch.evaluate                 |   1559 |     0.02992s |   2.1%
+- batch.forward                  |   1559 |     0.41326s |  28.3%
+- batch.mom                      |   1559 |     0.02327s |   1.6%
+- batch.reduce                   |   1559 |     0.06284s |   4.3%
+- batch.reporting.compr_err      |   1559 |     0.00021s |   0.0%
+- batch.reporting.lr             |   1559 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   1559 |     0.00005s |   0.0%
+- batch.step                     |   1559 |     0.01005s |   0.7%
+- batch.update_runavg            |   1559 |     0.01856s |   1.3%
+- batch.wd                       |   1559 |     0.00967s |   0.7%
+- epoch_metrics.collect          |     11 |     0.00148s |   0.0%
+- reduce.build_lists             |   1559 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1559 |     0.04170s |   2.9%
+- reduce.mean.pack               |   1559 |     0.00642s |   0.4%
+- reduce.mean.unpack             |   1559 |     0.00841s |   0.6%
+- reduce.reduce                  |   1559 |     0.05993s |   4.1%
+- reduce.zero_mem                |   1559 |     0.00281s |   0.2%
+- test.last                      |     11 |     4.10072s |   2.3%
+- test.runavg                    |     11 |     4.17791s |   2.4%
+-----------------------------------------------------------------
+
+(Rank 0) timer                          - epoch: 13.000, value:  0.760 (event:batch.backward)
+(Rank 0) timer                          - epoch: 13.000, value:  0.039 (event:batch.evaluate)
+(Rank 0) rel_compression_error          - epoch: 12.400, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 0) timer                          - epoch: 12.454, value:  0.010 (event:batch.step)
+(Rank 0) timer                          - epoch: -1.000, value:  0.002 (event:reduce.zero_mem)
+(Rank 0) rel_compression_error          - epoch: 12.785, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 0) effective_lr                   - epoch: 12.869, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 0) grad_norm                      - epoch: 12.869, value:  0.112 (weight:rnn.weight_hh_l2)
+(Rank 0) cross_entropy                  - bits:891629182080.000, epoch: 13.000, value:  6.387 (split:train)
+(Rank 0) last_cross_entropy             - bits:891629182080.000, epoch: 13.000, value:  6.387 (split:train)
+(Rank 0) perplexity                     - bits:891629182080.000, epoch: 13.000, value:594.870 (split:train)
+(Rank 0) last_perplexity                - bits:891629182080.000, epoch: 13.000, value:594.870 (split:train)
+(Rank 0) timer                          - epoch: 13.000, value:  0.001 (event:epoch_metrics.collect)
+(Rank 0) last_cross_entropy             - bits:891629182080.000, epoch: 13.000, value:  6.347 (split:test)
+(Rank 0) last_perplexity                - bits:891629182080.000, epoch: 13.000, value:572.362 (split:test)
+(Rank 0) timer                          - epoch: 12.000, value:  4.526 (event:test.last)
+(Rank 0) runavg_cross_entropy           - bits:891629182080.000, epoch: 13.000, value:  6.365 (split:test)
+(Rank 0) runavg_perplexity              - bits:891629182080.000, epoch: 13.000, value:583.056 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1689 |     1.40148s |  95.9%
+- batch.accumulate               |   1689 |     0.01061s |   0.7%
+- batch.backward                 |   1689 |     0.80318s |  55.0%
+- batch.evaluate                 |   1689 |     0.02999s |   2.1%
+- batch.forward                  |   1689 |     0.41357s |  28.3%
+- batch.mom                      |   1689 |     0.02333s |   1.6%
+- batch.reduce                   |   1689 |     0.06291s |   4.3%
+- batch.reporting.compr_err      |   1689 |     0.00021s |   0.0%
+- batch.reporting.lr             |   1689 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   1689 |     0.00004s |   0.0%
+- batch.step                     |   1689 |     0.01007s |   0.7%
+- batch.update_runavg            |   1689 |     0.01859s |   1.3%
+- batch.wd                       |   1689 |     0.00968s |   0.7%
+- epoch_metrics.collect          |     12 |     0.00140s |   0.0%
+- reduce.build_lists             |   1689 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1689 |     0.04172s |   2.9%
+- reduce.mean.pack               |   1689 |     0.00642s |   0.4%
+- reduce.mean.unpack             |   1689 |     0.00842s |   0.6%
+- reduce.reduce                  |   1689 |     0.06000s |   4.1%
+- reduce.zero_mem                |   1689 |     0.00280s |   0.2%
+- test.last                      |     12 |     4.13618s |   2.3%
+- test.runavg                    |     12 |     4.21581s |   2.4%
+-----------------------------------------------------------------
+
+(Rank 0) effective_lr                   - epoch: 13.138, value:  0.000 (weight:encoder.weight)
+(Rank 0) grad_norm                      - epoch: 13.138, value:  0.144 (weight:encoder.weight)
+(Rank 0) effective_lr                   - epoch: 13.485, value:  0.156 (weight:rnn.bias_hh_l1)
+(Rank 0) grad_norm                      - epoch: 13.485, value:  0.011 (weight:rnn.bias_hh_l1)
+(Rank 0) timer                          - epoch: 13.708, value:  0.011 (event:batch.step)
+(Rank 0) timer                          - epoch: 14.000, value:  0.718 (event:batch.backward)
+(Rank 0) cross_entropy                  - bits:960216042240.000, epoch: 14.000, value:  6.288 (split:train)
+(Rank 0) last_cross_entropy             - bits:960216042240.000, epoch: 14.000, value:  6.288 (split:train)
+(Rank 0) perplexity                     - bits:960216042240.000, epoch: 14.000, value:540.098 (split:train)
+(Rank 0) last_perplexity                - bits:960216042240.000, epoch: 14.000, value:540.098 (split:train)
+(Rank 0) last_cross_entropy             - bits:960216042240.000, epoch: 14.000, value:  6.116 (split:test)
+(Rank 0) last_perplexity                - bits:960216042240.000, epoch: 14.000, value:454.481 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:960216042240.000, epoch: 14.000, value:  6.146 (split:test)
+(Rank 0) runavg_perplexity              - bits:960216042240.000, epoch: 14.000, value:468.517 (split:test)
+(Rank 0) timer                          - epoch: 13.000, value:  4.303 (event:test.runavg)
+(Rank 1) memory_norm                    - epoch: 13.715, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 1) memory_norm                    - epoch: 13.715, value:  0.000 (weight:rnn.bias_ih_l0)
+(Rank 1) memory_norm                    - epoch: 13.715, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 1) memory_norm                    - epoch: 13.715, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 1) memory_norm                    - epoch: 13.715, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 1) memory_norm                    - epoch: 13.715, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 1) memory_norm                    - epoch: 13.715, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 1) memory_norm                    - epoch: 13.715, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 1) memory_norm                    - epoch: 13.715, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 1) memory_norm                    - epoch: 13.715, value:  0.000 (weight:rnn.bias_ih_l2)
+(Rank 1) memory_norm                    - epoch: 13.715, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 1) memory_norm                    - epoch: 13.715, value:  0.000 (weight:decoder.bias)
+(Rank 1) compression_error              - epoch: 13.715, value:  0.000 ()
+(Rank 1) timer                          - epoch: 13.962, value:  0.010 (event:batch.step)
+(Rank 1) cross_entropy                  - bits:960216042240.000, epoch: 14.000, value:  6.288 (split:train)
+(Rank 1) last_cross_entropy             - bits:960216042240.000, epoch: 14.000, value:  6.288 (split:train)
+(Rank 1) perplexity                     - bits:960216042240.000, epoch: 14.000, value:540.098 (split:train)
+(Rank 1) last_perplexity                - bits:960216042240.000, epoch: 14.000, value:540.098 (split:train)
+(Rank 1) last_cross_entropy             - bits:960216042240.000, epoch: 14.000, value:  6.116 (split:test)
+(Rank 1) last_perplexity                - bits:960216042240.000, epoch: 14.000, value:454.481 (split:test)
+(Rank 1) timer                          - epoch: 13.000, value:  3.751 (event:test.last)
+(Rank 1) runavg_cross_entropy           - bits:960216042240.000, epoch: 14.000, value:  6.146 (split:test)
+(Rank 1) runavg_perplexity              - bits:960216042240.000, epoch: 14.000, value:468.517 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1819 |     1.40200s |  95.8%
+- batch.accumulate               |   1819 |     0.01039s |   0.7%
+- batch.backward                 |   1819 |     0.80430s |  55.0%
+- batch.evaluate                 |   1819 |     0.02986s |   2.0%
+- batch.forward                  |   1819 |     0.41611s |  28.4%
+- batch.mom                      |   1819 |     0.02341s |   1.6%
+- batch.reduce                   |   1819 |     0.06019s |   4.1%
+- batch.reporting.compr_err      |   1819 |     0.00019s |   0.0%
+- batch.reporting.lr             |   1819 |     0.00015s |   0.0%
+- batch.reporting.memory_norm    |   1819 |     0.00002s |   0.0%
+- batch.step                     |   1819 |     0.01003s |   0.7%
+- batch.update_runavg            |   1819 |     0.01873s |   1.3%
+- batch.wd                       |   1819 |     0.00959s |   0.7%
+- epoch_metrics.collect          |     13 |     0.00118s |   0.0%
+- reduce.build_lists             |   1819 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1819 |     0.03914s |   2.7%
+- reduce.mean.pack               |   1819 |     0.00631s |   0.4%
+- reduce.mean.unpack             |   1819 |     0.00844s |   0.6%
+- reduce.reduce                  |   1819 |     0.05727s |   3.9%
+- reduce.zero_mem                |   1819 |     0.00281s |   0.2%
+- test.last                      |     13 |     4.10660s |   2.3%
+- test.runavg                    |     13 |     4.22251s |   2.4%
+-----------------------------------------------------------------
+
+(Rank 1) timer                          - epoch: -1.000, value:  0.005 (event:reduce.mean.pack)
+(Rank 1) effective_lr                   - epoch: 14.223, value:  0.011 (weight:decoder.bias)
+(Rank 1) grad_norm                      - epoch: 14.223, value:  0.017 (weight:decoder.bias)
+(Rank 1) timer                          - epoch: 14.669, value:  0.063 (event:batch.reduce)
+(Rank 1) cross_entropy                  - bits:1028802902400.000, epoch: 15.000, value:  6.089 (split:train)
+(Rank 1) last_cross_entropy             - bits:1028802902400.000, epoch: 15.000, value:  6.089 (split:train)
+(Rank 1) perplexity                     - bits:1028802902400.000, epoch: 15.000, value:442.198 (split:train)
+(Rank 1) last_perplexity                - bits:1028802902400.000, epoch: 15.000, value:442.198 (split:train)
+(Rank 1) last_cross_entropy             - bits:1028802902400.000, epoch: 15.000, value:  6.009 (split:test)
+(Rank 1) last_perplexity                - bits:1028802902400.000, epoch: 15.000, value:408.515 (split:test)
+(Rank 1) runavg_cross_entropy           - bits:1028802902400.000, epoch: 15.000, value:  6.046 (split:test)
+(Rank 1) runavg_perplexity              - bits:1028802902400.000, epoch: 15.000, value:423.899 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1949 |     1.40392s |  95.8%
+- batch.accumulate               |   1949 |     0.01042s |   0.7%
+- batch.backward                 |   1949 |     0.80518s |  55.0%
+- batch.evaluate                 |   1949 |     0.02997s |   2.0%
+- batch.forward                  |   1949 |     0.41650s |  28.4%
+- batch.mom                      |   1949 |     0.02346s |   1.6%
+- batch.reduce                   |   1949 |     0.06047s |   4.1%
+- batch.reporting.compr_err      |   1949 |     0.00019s |   0.0%
+- batch.reporting.lr             |   1949 |     0.00015s |   0.0%
+- batch.reporting.memory_norm    |   1949 |     0.00002s |   0.0%
+- batch.step                     |   1949 |     0.01005s |   0.7%
+- batch.update_runavg            |   1949 |     0.01877s |   1.3%
+- batch.wd                       |   1949 |     0.00960s |   0.7%
+- epoch_metrics.collect          |     14 |     0.00113s |   0.0%
+- reduce.build_lists             |   1949 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1949 |     0.03938s |   2.7%
+- reduce.mean.pack               |   1949 |     0.00633s |   0.4%
+- reduce.mean.unpack             |   1949 |     0.00845s |   0.6%
+- reduce.reduce                  |   1949 |     0.05755s |   3.9%
+- reduce.zero_mem                |   1949 |     0.00281s |   0.2%
+- test.last                      |     14 |     4.11467s |   2.3%
+- test.runavg                    |     14 |     4.23838s |   2.4%
+-----------------------------------------------------------------
+
+(Rank 1) timer                          - epoch: 15.292, value:  0.049 (event:batch.reduce)
+(Rank 1) timer                          - epoch: 15.962, value:  0.010 (event:batch.wd)
+(Rank 1) memory_norm                    - epoch: 15.992, value:  0.000 (weight:encoder.weight)
+(Rank 1) memory_norm                    - epoch: 15.992, value:  0.000 (weight:rnn.weight_ih_l0)
+(Rank 1) memory_norm                    - epoch: 15.992, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 1) memory_norm                    - epoch: 15.992, value:  0.000 (weight:rnn.bias_ih_l0)
+(Rank 1) memory_norm                    - epoch: 15.992, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 1) memory_norm                    - epoch: 15.992, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 1) memory_norm                    - epoch: 15.992, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 1) memory_norm                    - epoch: 15.992, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 1) memory_norm                    - epoch: 15.992, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 1) memory_norm                    - epoch: 15.992, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 1) memory_norm                    - epoch: 15.992, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 1) memory_norm                    - epoch: 15.992, value:  0.000 (weight:rnn.bias_ih_l2)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1819 |     1.40210s |  95.8%
+- batch.accumulate               |   1819 |     0.01064s |   0.7%
+- batch.backward                 |   1819 |     0.80346s |  54.9%
+- batch.evaluate                 |   1819 |     0.03013s |   2.1%
+- batch.forward                  |   1819 |     0.41369s |  28.3%
+- batch.mom                      |   1819 |     0.02335s |   1.6%
+- batch.reduce                   |   1819 |     0.06286s |   4.3%
+- batch.reporting.compr_err      |   1819 |     0.00021s |   0.0%
+- batch.reporting.lr             |   1819 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   1819 |     0.00004s |   0.0%
+- batch.step                     |   1819 |     0.01008s |   0.7%
+- batch.update_runavg            |   1819 |     0.01861s |   1.3%
+- batch.wd                       |   1819 |     0.00968s |   0.7%
+- epoch_metrics.collect          |     13 |     0.00141s |   0.0%
+- reduce.build_lists             |   1819 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1819 |     0.04164s |   2.8%
+- reduce.mean.pack               |   1819 |     0.00642s |   0.4%
+- reduce.mean.unpack             |   1819 |     0.00843s |   0.6%
+- reduce.reduce                  |   1819 |     0.05995s |   4.1%
+- reduce.zero_mem                |   1819 |     0.00280s |   0.2%
+- test.last                      |     13 |     4.10658s |   2.3%
+- test.runavg                    |     13 |     4.22255s |   2.4%
+-----------------------------------------------------------------
+
+(Rank 0) rel_compression_error          - epoch: 14.023, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 0) timer                          - epoch: 15.000, value:  0.877 (event:batch.backward)
+(Rank 0) rel_compression_error          - epoch: 14.477, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 0) effective_lr                   - epoch: 14.523, value:  0.011 (weight:decoder.bias)
+(Rank 0) grad_norm                      - epoch: 14.523, value:  0.027 (weight:decoder.bias)
+(Rank 0) effective_lr                   - epoch: 14.631, value:  0.191 (weight:rnn.bias_ih_l0)
+(Rank 0) grad_norm                      - epoch: 14.631, value:  0.009 (weight:rnn.bias_ih_l0)
+(Rank 0) timer                          - epoch: 14.977, value:  0.012 (event:batch.step)
+(Rank 0) cross_entropy                  - bits:1028802902400.000, epoch: 15.000, value:  6.089 (split:train)
+(Rank 0) last_cross_entropy             - bits:1028802902400.000, epoch: 15.000, value:  6.089 (split:train)
+(Rank 0) perplexity                     - bits:1028802902400.000, epoch: 15.000, value:442.198 (split:train)
+(Rank 0) last_perplexity                - bits:1028802902400.000, epoch: 15.000, value:442.198 (split:train)
+(Rank 0) last_cross_entropy             - bits:1028802902400.000, epoch: 15.000, value:  6.009 (split:test)
+(Rank 0) last_perplexity                - bits:1028802902400.000, epoch: 15.000, value:408.515 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:1028802902400.000, epoch: 15.000, value:  6.046 (split:test)
+(Rank 0) runavg_perplexity              - bits:1028802902400.000, epoch: 15.000, value:423.899 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   1949 |     1.40402s |  95.8%
+- batch.accumulate               |   1949 |     0.01067s |   0.7%
+- batch.backward                 |   1949 |     0.80447s |  54.9%
+- batch.evaluate                 |   1949 |     0.03018s |   2.1%
+- batch.forward                  |   1949 |     0.41445s |  28.3%
+- batch.mom                      |   1949 |     0.02340s |   1.6%
+- batch.reduce                   |   1949 |     0.06276s |   4.3%
+- batch.reporting.compr_err      |   1949 |     0.00021s |   0.0%
+- batch.reporting.lr             |   1949 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   1949 |     0.00004s |   0.0%
+- batch.step                     |   1949 |     0.01010s |   0.7%
+- batch.update_runavg            |   1949 |     0.01867s |   1.3%
+- batch.wd                       |   1949 |     0.00970s |   0.7%
+- epoch_metrics.collect          |     14 |     0.00136s |   0.0%
+- reduce.build_lists             |   1949 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   1949 |     0.04149s |   2.8%
+- reduce.mean.pack               |   1949 |     0.00643s |   0.4%
+- reduce.mean.unpack             |   1949 |     0.00844s |   0.6%
+- reduce.reduce                  |   1949 |     0.05983s |   4.1%
+- reduce.zero_mem                |   1949 |     0.00282s |   0.2%
+- test.last                      |     14 |     4.11465s |   2.3%
+- test.runavg                    |     14 |     4.23842s |   2.4%
+-----------------------------------------------------------------
+
+(Rank 0) effective_lr                   - epoch: 15.038, value:  0.000 (weight:rnn.weight_ih_l0)
+(Rank 0) grad_norm                      - epoch: 15.038, value:  0.043 (weight:rnn.weight_ih_l0)
+(Rank 0) effective_lr                   - epoch: 15.323, value:  0.001 (weight:rnn.weight_hh_l0)
+(Rank 0) grad_norm                      - epoch: 15.323, value:  0.017 (weight:rnn.weight_hh_l0)
+(Rank 0) timer                          - epoch: -1.000, value:  0.053 (event:reduce.mean.allreduce)
+(Rank 0) timer                          - epoch: -1.000, value:  0.000 (event:reduce.build_lists)
+(Rank 0) effective_lr                   - epoch: 15.746, value:  0.001 (weight:rnn.weight_hh_l1)
+(Rank 0) grad_norm                      - epoch: 15.746, value:  0.011 (weight:rnn.weight_hh_l1)
+(Rank 0) cross_entropy                  - bits:1097389762560.000, epoch: 16.000, value:  5.991 (split:train)
+(Rank 0) last_cross_entropy             - bits:1097389762560.000, epoch: 16.000, value:  5.991 (split:train)
+(Rank 0) perplexity                     - bits:1097389762560.000, epoch: 16.000, value:400.842 (split:train)
+(Rank 0) last_perplexity                - bits:1097389762560.000, epoch: 16.000, value:400.842 (split:train)
+(Rank 0) last_cross_entropy             - bits:1097389762560.000, epoch: 16.000, value:  5.922 (split:test)
+(Rank 0) last_perplexity                - bits:1097389762560.000, epoch: 16.000, value:374.457 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:1097389762560.000, epoch: 16.000, value:  5.964 (split:test)
+(Rank 0) runavg_perplexity              - bits:1097389762560.000, epoch: 16.000, value:390.416 (split:test)
+(Rank 1) memory_norm                    - epoch: 15.992, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 1) memory_norm                    - epoch: 15.992, value:  0.000 (weight:decoder.bias)
+(Rank 1) compression_error              - epoch: 15.992, value:  0.000 ()
+(Rank 1) cross_entropy                  - bits:1097389762560.000, epoch: 16.000, value:  5.991 (split:train)
+(Rank 1) last_cross_entropy             - bits:1097389762560.000, epoch: 16.000, value:  5.991 (split:train)
+(Rank 1) perplexity                     - bits:1097389762560.000, epoch: 16.000, value:400.842 (split:train)
+(Rank 1) last_perplexity                - bits:1097389762560.000, epoch: 16.000, value:400.842 (split:train)
+(Rank 1) last_cross_entropy             - bits:1097389762560.000, epoch: 16.000, value:  5.922 (split:test)
+(Rank 1) last_perplexity                - bits:1097389762560.000, epoch: 16.000, value:374.457 (split:test)
+(Rank 1) runavg_cross_entropy           - bits:1097389762560.000, epoch: 16.000, value:  5.964 (split:test)
+(Rank 1) runavg_perplexity              - bits:1097389762560.000, epoch: 16.000, value:390.416 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   2079 |     1.40717s |  95.8%
+- batch.accumulate               |   2079 |     0.01047s |   0.7%
+- batch.backward                 |   2079 |     0.80697s |  54.9%
+- batch.evaluate                 |   2079 |     0.03012s |   2.1%
+- batch.forward                  |   2079 |     0.41744s |  28.4%
+- batch.mom                      |   2079 |     0.02353s |   1.6%
+- batch.reduce                   |   2079 |     0.06058s |   4.1%
+- batch.reporting.compr_err      |   2079 |     0.00019s |   0.0%
+- batch.reporting.lr             |   2079 |     0.00015s |   0.0%
+- batch.reporting.memory_norm    |   2079 |     0.00003s |   0.0%
+- batch.step                     |   2079 |     0.01008s |   0.7%
+- batch.update_runavg            |   2079 |     0.01882s |   1.3%
+- batch.wd                       |   2079 |     0.00962s |   0.7%
+- epoch_metrics.collect          |     15 |     0.00107s |   0.0%
+- reduce.build_lists             |   2079 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   2079 |     0.03944s |   2.7%
+- reduce.mean.pack               |   2079 |     0.00636s |   0.4%
+- reduce.mean.unpack             |   2079 |     0.00846s |   0.6%
+- reduce.reduce                  |   2079 |     0.05765s |   3.9%
+- reduce.zero_mem                |   2079 |     0.00282s |   0.2%
+- test.last                      |     15 |     4.09335s |   2.3%
+- test.runavg                    |     15 |     4.21448s |   2.3%
+-----------------------------------------------------------------
+
+(Rank 1) rel_compression_error          - epoch: 16.100, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 1) effective_lr                   - epoch: 16.208, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 1) grad_norm                      - epoch: 16.208, value:  0.023 (weight:rnn.weight_ih_l2)
+(Rank 1) rel_compression_error          - epoch: 16.354, value:  0.000 (weight:encoder.weight)
+(Rank 1) rel_compression_error          - epoch: 16.385, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 1) effective_lr                   - epoch: 16.485, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 1) grad_norm                      - epoch: 16.485, value:  0.159 (weight:rnn.weight_hh_l2)
+(Rank 1) cross_entropy                  - bits:1165976622720.000, epoch: 17.000, value:  5.908 (split:train)
+(Rank 1) last_cross_entropy             - bits:1165976622720.000, epoch: 17.000, value:  5.908 (split:train)
+(Rank 1) perplexity                     - bits:1165976622720.000, epoch: 17.000, value:368.944 (split:train)
+(Rank 1) last_perplexity                - bits:1165976622720.000, epoch: 17.000, value:368.944 (split:train)
+(Rank 1) last_cross_entropy             - bits:1165976622720.000, epoch: 17.000, value:  5.855 (split:test)
+(Rank 1) last_perplexity                - bits:1165976622720.000, epoch: 17.000, value:350.277 (split:test)
+(Rank 1) runavg_cross_entropy           - bits:1165976622720.000, epoch: 17.000, value:  5.905 (split:test)
+(Rank 1) runavg_perplexity              - bits:1165976622720.000, epoch: 17.000, value:368.079 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   2209 |     1.40731s |  95.8%
+- batch.accumulate               |   2209 |     0.01051s |   0.7%
+- batch.backward                 |   2209 |     0.80701s |  54.9%
+- batch.evaluate                 |   2209 |     0.03012s |   2.1%
+- batch.forward                  |   2209 |     0.41736s |  28.4%
+- batch.mom                      |   2209 |     0.02352s |   1.6%
+- batch.reduce                   |   2209 |     0.06071s |   4.1%
+- batch.reporting.compr_err      |   2209 |     0.00019s |   0.0%
+- batch.reporting.lr             |   2209 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   2209 |     0.00002s |   0.0%
+- batch.step                     |   2209 |     0.01008s |   0.7%
+- batch.update_runavg            |   2209 |     0.01882s |   1.3%
+- batch.wd                       |   2209 |     0.00961s |   0.7%
+- epoch_metrics.collect          |     16 |     0.00103s |   0.0%
+- reduce.build_lists             |   2209 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   2209 |     0.03955s |   2.7%
+- reduce.mean.pack               |   2209 |     0.00637s |   0.4%
+- reduce.mean.unpack             |   2209 |     0.00846s |   0.6%
+- reduce.reduce                  |   2209 |     0.05776s |   3.9%
+- reduce.zero_mem                |   2209 |     0.00283s |   0.2%
+- test.last                      |     16 |     4.10398s |   2.3%
+- test.runavg                    |     16 |     4.19443s |   2.3%
+-----------------------------------------------------------------
+
+(Rank 1) rel_compression_error          - epoch: 17.038, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 1) rel_compression_error          - epoch: 17.392, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 1) effective_lr                   - epoch: 17.692, value:  0.001 (weight:rnn.weight_hh_l1)
+(Rank 1) grad_norm                      - epoch: 17.692, value:  0.018 (weight:rnn.weight_hh_l1)
+(Rank 1) rel_compression_error          - epoch: 17.762, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 1) rel_compression_error          - epoch: 17.969, value:  0.000 (weight:encoder.weight)
+(Rank 1) cross_entropy                  - bits:1234563482880.000, epoch: 18.000, value:  5.847 (split:train)
+(Rank 1) last_cross_entropy             - bits:1234563482880.000, epoch: 18.000, value:  5.847 (split:train)
+(Rank 1) perplexity                     - bits:1234563482880.000, epoch: 18.000, value:347.026 (split:train)
+(Rank 1) last_perplexity                - bits:1234563482880.000, epoch: 18.000, value:347.026 (split:train)
+(Rank 1) last_cross_entropy             - bits:1234563482880.000, epoch: 18.000, value:  5.798 (split:test)
+(Rank 1) last_perplexity                - bits:1234563482880.000, epoch: 18.000, value:331.036 (split:test)
+(Rank 1) runavg_cross_entropy           - bits:1234563482880.000, epoch: 18.000, value:  5.854 (split:test)
+(Rank 1) runavg_perplexity              - bits:1234563482880.000, epoch: 18.000, value:349.951 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   2079 |     1.40727s |  95.8%
+- batch.accumulate               |   2079 |     0.01074s |   0.7%
+- batch.backward                 |   2079 |     0.80627s |  54.9%
+- batch.evaluate                 |   2079 |     0.03026s |   2.1%
+- batch.forward                  |   2079 |     0.41538s |  28.3%
+- batch.mom                      |   2079 |     0.02346s |   1.6%
+- batch.reduce                   |   2079 |     0.06287s |   4.3%
+- batch.reporting.compr_err      |   2079 |     0.00021s |   0.0%
+- batch.reporting.lr             |   2079 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   2079 |     0.00004s |   0.0%
+- batch.step                     |   2079 |     0.01012s |   0.7%
+- batch.update_runavg            |   2079 |     0.01874s |   1.3%
+- batch.wd                       |   2079 |     0.00972s |   0.7%
+- epoch_metrics.collect          |     15 |     0.00152s |   0.0%
+- reduce.build_lists             |   2079 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   2079 |     0.04154s |   2.8%
+- reduce.mean.pack               |   2079 |     0.00646s |   0.4%
+- reduce.mean.unpack             |   2079 |     0.00846s |   0.6%
+- reduce.reduce                  |   2079 |     0.05993s |   4.1%
+- reduce.zero_mem                |   2079 |     0.00283s |   0.2%
+- test.last                      |     15 |     4.09332s |   2.3%
+- test.runavg                    |     15 |     4.21452s |   2.3%
+-----------------------------------------------------------------
+
+(Rank 0) memory_norm                    - epoch: 16.215, value:  0.000 (weight:encoder.weight)
+(Rank 0) memory_norm                    - epoch: 16.215, value:  0.000 (weight:rnn.weight_ih_l0)
+(Rank 0) memory_norm                    - epoch: 16.215, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 0) memory_norm                    - epoch: 16.215, value:  0.000 (weight:rnn.bias_ih_l0)
+(Rank 0) memory_norm                    - epoch: 16.215, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 0) memory_norm                    - epoch: 16.215, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 0) memory_norm                    - epoch: 16.215, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 0) memory_norm                    - epoch: 16.215, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 0) memory_norm                    - epoch: 16.215, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 0) memory_norm                    - epoch: 16.215, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 0) memory_norm                    - epoch: 16.215, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 0) memory_norm                    - epoch: 16.215, value:  0.000 (weight:rnn.bias_ih_l2)
+(Rank 0) memory_norm                    - epoch: 16.215, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 0) memory_norm                    - epoch: 16.215, value:  0.000 (weight:decoder.bias)
+(Rank 0) compression_error              - epoch: 16.215, value:  0.000 ()
+(Rank 0) timer                          - epoch: -1.000, value:  0.024 (event:reduce.mean.allreduce)
+(Rank 0) effective_lr                   - epoch: 16.423, value:  0.136 (weight:rnn.bias_hh_l0)
+(Rank 0) grad_norm                      - epoch: 16.423, value:  0.023 (weight:rnn.bias_hh_l0)
+(Rank 0) timer                          - epoch: -1.000, value:  0.059 (event:reduce.mean.allreduce)
+(Rank 0) cross_entropy                  - bits:1165976622720.000, epoch: 17.000, value:  5.908 (split:train)
+(Rank 0) last_cross_entropy             - bits:1165976622720.000, epoch: 17.000, value:  5.908 (split:train)
+(Rank 0) perplexity                     - bits:1165976622720.000, epoch: 17.000, value:368.944 (split:train)
+(Rank 0) last_perplexity                - bits:1165976622720.000, epoch: 17.000, value:368.944 (split:train)
+(Rank 0) last_cross_entropy             - bits:1165976622720.000, epoch: 17.000, value:  5.855 (split:test)
+(Rank 0) last_perplexity                - bits:1165976622720.000, epoch: 17.000, value:350.277 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:1165976622720.000, epoch: 17.000, value:  5.905 (split:test)
+(Rank 0) runavg_perplexity              - bits:1165976622720.000, epoch: 17.000, value:368.079 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   2209 |     1.40742s |  95.8%
+- batch.accumulate               |   2209 |     0.01071s |   0.7%
+- batch.backward                 |   2209 |     0.80638s |  54.9%
+- batch.evaluate                 |   2209 |     0.03029s |   2.1%
+- batch.forward                  |   2209 |     0.41549s |  28.3%
+- batch.mom                      |   2209 |     0.02346s |   1.6%
+- batch.reduce                   |   2209 |     0.06280s |   4.3%
+- batch.reporting.compr_err      |   2209 |     0.00021s |   0.0%
+- batch.reporting.lr             |   2209 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   2209 |     0.00004s |   0.0%
+- batch.step                     |   2209 |     0.01012s |   0.7%
+- batch.update_runavg            |   2209 |     0.01872s |   1.3%
+- batch.wd                       |   2209 |     0.00973s |   0.7%
+- epoch_metrics.collect          |     16 |     0.00146s |   0.0%
+- reduce.build_lists             |   2209 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   2209 |     0.04143s |   2.8%
+- reduce.mean.pack               |   2209 |     0.00648s |   0.4%
+- reduce.mean.unpack             |   2209 |     0.00846s |   0.6%
+- reduce.reduce                  |   2209 |     0.05986s |   4.1%
+- reduce.zero_mem                |   2209 |     0.00283s |   0.2%
+- test.last                      |     16 |     4.10396s |   2.3%
+- test.runavg                    |     16 |     4.19446s |   2.3%
+-----------------------------------------------------------------
+
+(Rank 0) timer                          - epoch: 18.000, value:  0.919 (event:batch.backward)
+(Rank 0) rel_compression_error          - epoch: 17.154, value:  0.000 (weight:decoder.bias)
+(Rank 0) timer                          - epoch: 17.469, value:  0.009 (event:batch.step)
+(Rank 0) rel_compression_error          - epoch: 17.523, value:  0.000 (weight:encoder.weight)
+(Rank 0) rel_compression_error          - epoch: 17.669, value:  0.000 (weight:rnn.bias_ih_l2)
+(Rank 0) rel_compression_error          - epoch: 17.846, value:  0.000 (weight:encoder.weight)
+(Rank 0) rel_compression_error          - epoch: 17.992, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 0) cross_entropy                  - bits:1234563482880.000, epoch: 18.000, value:  5.847 (split:train)
+(Rank 0) last_cross_entropy             - bits:1234563482880.000, epoch: 18.000, value:  5.847 (split:train)
+(Rank 0) perplexity                     - bits:1234563482880.000, epoch: 18.000, value:347.026 (split:train)
+(Rank 0) last_perplexity                - bits:1234563482880.000, epoch: 18.000, value:347.026 (split:train)
+(Rank 0) last_cross_entropy             - bits:1234563482880.000, epoch: 18.000, value:  5.798 (split:test)
+(Rank 0) last_perplexity                - bits:1234563482880.000, epoch: 18.000, value:331.036 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:1234563482880.000, epoch: 18.000, value:  5.854 (split:test)
+(Rank 0) runavg_perplexity              - bits:1234563482880.000, epoch: 18.000, value:349.951 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   2339 |     1.40603s |  95.8%
+- batch.accumulate               |   2339 |     0.01047s |   0.7%
+- batch.backward                 |   2339 |     0.80621s |  54.9%
+- batch.evaluate                 |   2339 |     0.03003s |   2.0%
+- batch.forward                  |   2339 |     0.41702s |  28.4%
+- batch.mom                      |   2339 |     0.02350s |   1.6%
+- batch.reduce                   |   2339 |     0.06079s |   4.1%
+- batch.reporting.compr_err      |   2339 |     0.00020s |   0.0%
+- batch.reporting.lr             |   2339 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   2339 |     0.00002s |   0.0%
+- batch.step                     |   2339 |     0.01006s |   0.7%
+- batch.update_runavg            |   2339 |     0.01879s |   1.3%
+- batch.wd                       |   2339 |     0.00959s |   0.7%
+- epoch_metrics.collect          |     17 |     0.00107s |   0.0%
+- reduce.build_lists             |   2339 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   2339 |     0.03966s |   2.7%
+- reduce.mean.pack               |   2339 |     0.00634s |   0.4%
+- reduce.mean.unpack             |   2339 |     0.00845s |   0.6%
+- reduce.reduce                  |   2339 |     0.05785s |   3.9%
+- reduce.zero_mem                |   2339 |     0.00283s |   0.2%
+- test.last                      |     17 |     4.07890s |   2.3%
+- test.runavg                    |     17 |     4.21100s |   2.3%
+-----------------------------------------------------------------
+
+(Rank 1) timer                          - epoch: 18.546, value:  0.043 (event:batch.reduce)
+(Rank 1) memory_norm                    - epoch: 18.685, value:  0.000 (weight:encoder.weight)
+(Rank 1) memory_norm                    - epoch: 18.685, value:  0.000 (weight:rnn.weight_ih_l0)
+(Rank 1) memory_norm                    - epoch: 18.685, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 1) memory_norm                    - epoch: 18.685, value:  0.000 (weight:rnn.bias_ih_l0)
+(Rank 1) memory_norm                    - epoch: 18.685, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 1) memory_norm                    - epoch: 18.685, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 1) memory_norm                    - epoch: 18.685, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 1) memory_norm                    - epoch: 18.685, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 1) memory_norm                    - epoch: 18.685, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 1) memory_norm                    - epoch: 18.685, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 1) memory_norm                    - epoch: 18.685, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 1) memory_norm                    - epoch: 18.685, value:  0.000 (weight:rnn.bias_ih_l2)
+(Rank 1) memory_norm                    - epoch: 18.685, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 1) memory_norm                    - epoch: 18.685, value:  0.000 (weight:decoder.bias)
+(Rank 1) compression_error              - epoch: 18.685, value:  0.000 ()
+(Rank 1) effective_lr                   - epoch: 18.846, value:  0.001 (weight:rnn.weight_ih_l2)
+(Rank 1) grad_norm                      - epoch: 18.846, value:  0.028 (weight:rnn.weight_ih_l2)
+(Rank 1) memory_norm                    - epoch: 18.915, value:  0.000 (weight:encoder.weight)
+(Rank 1) memory_norm                    - epoch: 18.915, value:  0.000 (weight:rnn.weight_ih_l0)
+(Rank 1) memory_norm                    - epoch: 18.915, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 1) memory_norm                    - epoch: 18.915, value:  0.000 (weight:rnn.bias_ih_l0)
+(Rank 1) memory_norm                    - epoch: 18.915, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 1) memory_norm                    - epoch: 18.915, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 1) memory_norm                    - epoch: 18.915, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 1) memory_norm                    - epoch: 18.915, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 1) memory_norm                    - epoch: 18.915, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 1) memory_norm                    - epoch: 18.915, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 1) memory_norm                    - epoch: 18.915, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 1) memory_norm                    - epoch: 18.915, value:  0.000 (weight:rnn.bias_ih_l2)
+(Rank 1) memory_norm                    - epoch: 18.915, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 1) memory_norm                    - epoch: 18.915, value:  0.000 (weight:decoder.bias)
+(Rank 1) compression_error              - epoch: 18.915, value:  0.000 ()
+(Rank 1) cross_entropy                  - bits:1303150343040.000, epoch: 19.000, value:  5.798 (split:train)
+(Rank 1) last_cross_entropy             - bits:1303150343040.000, epoch: 19.000, value:  5.798 (split:train)
+(Rank 1) perplexity                     - bits:1303150343040.000, epoch: 19.000, value:330.360 (split:train)
+(Rank 1) last_perplexity                - bits:1303150343040.000, epoch: 19.000, value:330.360 (split:train)
+(Rank 1) last_cross_entropy             - bits:1303150343040.000, epoch: 19.000, value:  5.765 (split:test)
+(Rank 1) last_perplexity                - bits:1303150343040.000, epoch: 19.000, value:320.191 (split:test)
+(Rank 1) runavg_cross_entropy           - bits:1303150343040.000, epoch: 19.000, value:  5.818 (split:test)
+(Rank 1) runavg_perplexity              - bits:1303150343040.000, epoch: 19.000, value:337.513 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   2469 |     1.40455s |  95.8%
+- batch.accumulate               |   2469 |     0.01043s |   0.7%
+- batch.backward                 |   2469 |     0.80556s |  54.9%
+- batch.evaluate                 |   2469 |     0.02997s |   2.0%
+- batch.forward                  |   2469 |     0.41656s |  28.4%
+- batch.mom                      |   2469 |     0.02347s |   1.6%
+- batch.reduce                   |   2469 |     0.06071s |   4.1%
+- batch.reporting.compr_err      |   2469 |     0.00020s |   0.0%
+- batch.reporting.lr             |   2469 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   2469 |     0.00003s |   0.0%
+- batch.step                     |   2469 |     0.01004s |   0.7%
+- batch.update_runavg            |   2469 |     0.01875s |   1.3%
+- batch.wd                       |   2469 |     0.00957s |   0.7%
+- epoch_metrics.collect          |     18 |     0.00107s |   0.0%
+- reduce.build_lists             |   2469 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   2469 |     0.03961s |   2.7%
+- reduce.mean.pack               |   2469 |     0.00633s |   0.4%
+- reduce.mean.unpack             |   2469 |     0.00845s |   0.6%
+- reduce.reduce                  |   2469 |     0.05778s |   3.9%
+- reduce.zero_mem                |   2469 |     0.00282s |   0.2%
+- test.last                      |     18 |     4.05727s |   2.2%
+- test.runavg                    |     18 |     4.18891s |   2.3%
+-----------------------------------------------------------------
+
+(Rank 1) rel_compression_error          - epoch: 19.077, value:  0.000 (weight:rnn.weight_ih_l0)
+(Rank 1) effective_lr                   - epoch: 19.162, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 1) grad_norm                      - epoch: 19.162, value:  0.120 (weight:rnn.weight_hh_l2)
+(Rank 1) rel_compression_error          - epoch: 19.169, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 1) effective_lr                   - epoch: 19.677, value:  0.001 (weight:rnn.weight_ih_l2)
+(Rank 1) grad_norm                      - epoch: 19.677, value:  0.043 (weight:rnn.weight_ih_l2)
+(Rank 1) cross_entropy                  - bits:1371737203200.000, epoch: 20.000, value:  5.756 (split:train)
+(Rank 1) last_cross_entropy             - bits:1371737203200.000, epoch: 20.000, value:  5.756 (split:train)
+(Rank 1) perplexity                     - bits:1371737203200.000, epoch: 20.000, value:316.928 (split:train)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   2339 |     1.40614s |  95.8%
+- batch.accumulate               |   2339 |     0.01069s |   0.7%
+- batch.backward                 |   2339 |     0.80567s |  54.9%
+- batch.evaluate                 |   2339 |     0.03021s |   2.1%
+- batch.forward                  |   2339 |     0.41492s |  28.3%
+- batch.mom                      |   2339 |     0.02342s |   1.6%
+- batch.reduce                   |   2339 |     0.06302s |   4.3%
+- batch.reporting.compr_err      |   2339 |     0.00022s |   0.0%
+- batch.reporting.lr             |   2339 |     0.00016s |   0.0%
+- batch.reporting.memory_norm    |   2339 |     0.00004s |   0.0%
+- batch.step                     |   2339 |     0.01010s |   0.7%
+- batch.update_runavg            |   2339 |     0.01868s |   1.3%
+- batch.wd                       |   2339 |     0.00972s |   0.7%
+- epoch_metrics.collect          |     17 |     0.00141s |   0.0%
+- reduce.build_lists             |   2339 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   2339 |     0.04165s |   2.8%
+- reduce.mean.pack               |   2339 |     0.00648s |   0.4%
+- reduce.mean.unpack             |   2339 |     0.00845s |   0.6%
+- reduce.reduce                  |   2339 |     0.06007s |   4.1%
+- reduce.zero_mem                |   2339 |     0.00283s |   0.2%
+- test.last                      |     17 |     4.07888s |   2.3%
+- test.runavg                    |     17 |     4.21103s |   2.3%
+-----------------------------------------------------------------
+
+(Rank 0) rel_compression_error          - epoch: 18.162, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 0) effective_lr                   - epoch: 18.308, value:  0.000 (weight:encoder.weight)
+(Rank 0) grad_norm                      - epoch: 18.308, value:  0.204 (weight:encoder.weight)
+(Rank 0) effective_lr                   - epoch: 18.362, value:  0.001 (weight:rnn.weight_hh_l1)
+(Rank 0) grad_norm                      - epoch: 18.362, value:  0.027 (weight:rnn.weight_hh_l1)
+(Rank 0) effective_lr                   - epoch: 18.646, value:  0.001 (weight:rnn.weight_hh_l0)
+(Rank 0) grad_norm                      - epoch: 18.646, value:  0.015 (weight:rnn.weight_hh_l0)
+(Rank 0) effective_lr                   - epoch: 18.669, value:  0.033 (weight:rnn.bias_ih_l2)
+(Rank 0) grad_norm                      - epoch: 18.669, value:  0.017 (weight:rnn.bias_ih_l2)
+(Rank 0) effective_lr                   - epoch: 18.962, value:  0.000 (weight:encoder.weight)
+(Rank 0) grad_norm                      - epoch: 18.962, value:  0.228 (weight:encoder.weight)
+(Rank 0) cross_entropy                  - bits:1303150343040.000, epoch: 19.000, value:  5.798 (split:train)
+(Rank 0) last_cross_entropy             - bits:1303150343040.000, epoch: 19.000, value:  5.798 (split:train)
+(Rank 0) perplexity                     - bits:1303150343040.000, epoch: 19.000, value:330.360 (split:train)
+(Rank 0) last_perplexity                - bits:1303150343040.000, epoch: 19.000, value:330.360 (split:train)
+(Rank 0) last_cross_entropy             - bits:1303150343040.000, epoch: 19.000, value:  5.765 (split:test)
+(Rank 0) last_perplexity                - bits:1303150343040.000, epoch: 19.000, value:320.191 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:1303150343040.000, epoch: 19.000, value:  5.818 (split:test)
+(Rank 0) runavg_perplexity              - bits:1303150343040.000, epoch: 19.000, value:337.513 (split:test)
+--- Timer summary -----------------------------------------------
+  Event                          |  Count | Average time |  Frac.
+- batch                          |   2469 |     1.40466s |  95.8%
+- batch.accumulate               |   2469 |     0.01066s |   0.7%
+- batch.backward                 |   2469 |     0.80472s |  54.9%
+- batch.evaluate                 |   2469 |     0.03015s |   2.1%
+- batch.forward                  |   2469 |     0.41439s |  28.3%
+- batch.mom                      |   2469 |     0.02336s |   1.6%
+- batch.reduce                   |   2469 |     0.06323s |   4.3%
+- batch.reporting.compr_err      |   2469 |     0.00022s |   0.0%
+- batch.reporting.lr             |   2469 |     0.00017s |   0.0%
+- batch.reporting.memory_norm    |   2469 |     0.00004s |   0.0%
+- batch.step                     |   2469 |     0.01008s |   0.7%
+- batch.update_runavg            |   2469 |     0.01864s |   1.3%
+- batch.wd                       |   2469 |     0.00970s |   0.7%
+- epoch_metrics.collect          |     18 |     0.00134s |   0.0%
+- reduce.build_lists             |   2469 |     0.00001s |   0.0%
+- reduce.mean.allreduce          |   2469 |     0.04189s |   2.9%
+- reduce.mean.pack               |   2469 |     0.00646s |   0.4%
+- reduce.mean.unpack             |   2469 |     0.00843s |   0.6%
+- reduce.reduce                  |   2469 |     0.06029s |   4.1%
+- reduce.zero_mem                |   2469 |     0.00282s |   0.2%
+- test.last                      |     18 |     4.05725s |   2.2%
+- test.runavg                    |     18 |     4.18895s |   2.3%
+-----------------------------------------------------------------
+
+(Rank 0) effective_lr                   - epoch: 19.308, value:  0.033 (weight:rnn.bias_ih_l2)
+(Rank 0) grad_norm                      - epoch: 19.308, value:  0.021 (weight:rnn.bias_ih_l2)
+(Rank 0) effective_lr                   - epoch: 19.669, value:  0.057 (weight:rnn.bias_ih_l1)
+(Rank 0) grad_norm                      - epoch: 19.669, value:  0.028 (weight:rnn.bias_ih_l1)
+(Rank 0) memory_norm                    - epoch: 19.923, value:  0.000 (weight:encoder.weight)
+(Rank 0) memory_norm                    - epoch: 19.923, value:  0.000 (weight:rnn.weight_ih_l0)
+(Rank 0) memory_norm                    - epoch: 19.923, value:  0.000 (weight:rnn.weight_hh_l0)
+(Rank 0) memory_norm                    - epoch: 19.923, value:  0.000 (weight:rnn.bias_ih_l0)
+(Rank 0) memory_norm                    - epoch: 19.923, value:  0.000 (weight:rnn.bias_hh_l0)
+(Rank 0) memory_norm                    - epoch: 19.923, value:  0.000 (weight:rnn.weight_ih_l1)
+(Rank 0) memory_norm                    - epoch: 19.923, value:  0.000 (weight:rnn.weight_hh_l1)
+(Rank 0) memory_norm                    - epoch: 19.923, value:  0.000 (weight:rnn.bias_ih_l1)
+(Rank 0) memory_norm                    - epoch: 19.923, value:  0.000 (weight:rnn.bias_hh_l1)
+(Rank 0) memory_norm                    - epoch: 19.923, value:  0.000 (weight:rnn.weight_ih_l2)
+(Rank 0) memory_norm                    - epoch: 19.923, value:  0.000 (weight:rnn.weight_hh_l2)
+(Rank 0) memory_norm                    - epoch: 19.923, value:  0.000 (weight:rnn.bias_ih_l2)
+(Rank 0) memory_norm                    - epoch: 19.923, value:  0.000 (weight:rnn.bias_hh_l2)
+(Rank 0) memory_norm                    - epoch: 19.923, value:  0.000 (weight:decoder.bias)
+(Rank 0) compression_error              - epoch: 19.923, value:  0.000 ()
+(Rank 0) timer                          - epoch: 19.938, value:  0.008 (event:batch.accumulate)
+(Rank 0) cross_entropy                  - bits:1371737203200.000, epoch: 20.000, value:  5.756 (split:train)
+(Rank 0) last_cross_entropy             - bits:1371737203200.000, epoch: 20.000, value:  5.756 (split:train)
+(Rank 0) perplexity                     - bits:1371737203200.000, epoch: 20.000, value:316.928 (split:train)
+(Rank 0) last_perplexity                - bits:1371737203200.000, epoch: 20.000, value:316.928 (split:train)
+(Rank 0) last_cross_entropy             - bits:1371737203200.000, epoch: 20.000, value:  5.725 (split:test)
+(Rank 0) last_perplexity                - bits:1371737203200.000, epoch: 20.000, value:307.619 (split:test)
+(Rank 0) runavg_cross_entropy           - bits:1371737203200.000, epoch: 20.000, value:  5.781 (split:test)
+(Rank 0) runavg_perplexity              - bits:1371737203200.000, epoch: 20.000, value:325.372 (split:test)
